@@ -1,0 +1,21 @@
+import { externalUrls } from '@openclaw/shared'
+
+const TWITTER_URL = externalUrls.SOCIAL.X
+const FACEBOOK_URL = externalUrls.SOCIAL.FACEBOOK
+const INSTAGRAM_URL = externalUrls.SOCIAL.INSTAGRAM
+const THREADS_URL = externalUrls.SOCIAL.THREADS
+const YOUTUBE_URL = externalUrls.SOCIAL.YOUTUBE
+const TIKTOK_URL = externalUrls.SOCIAL.TIKTOK
+const TUTORIAL_URL = externalUrls.SOCIAL.TUTORIAL
+const SUPPORT_EMAIL = externalUrls.SOCIAL.SUPPORT_EMAIL
+
+export {
+    TWITTER_URL,
+    FACEBOOK_URL,
+    INSTAGRAM_URL,
+    THREADS_URL,
+    YOUTUBE_URL,
+    TIKTOK_URL,
+    TUTORIAL_URL,
+    SUPPORT_EMAIL
+}

@@ -1,0 +1,2298 @@
+import type { Translations } from '#i18n/types'
+
+const ja: Translations = {
+    common: {
+        loading: '読み込み中...',
+        noResults: '結果が見つかりません.',
+        save: '保存',
+        cancel: 'キャンセル',
+        confirm: '確認',
+        delete: '削除',
+        deleting: '削除中...',
+        create: '作成',
+        done: '完了',
+        back: '戻る',
+        copy: 'コピー',
+        copied: 'コピーしました.',
+        copiedWithLabel: '{{label}}をコピーしました.',
+        show: '表示',
+        hide: '非表示',
+        tryAgain: '再試行',
+        addKey: 'キーを追加',
+        close: '閉じる',
+        none: 'なし',
+        all: 'すべて',
+        unknown: '不明',
+        pageNotFound: 'ページが見つかりません',
+        closeNotification: '通知を閉じる',
+        beta: 'ベータ',
+        brandName: 'ClawHost',
+        brandNameGo: 'ClawHost Go',
+        brandNameGoVersion: 'ClawHost Go {{version}}',
+        pageTitleWithBrand: '{{title}} - ClawHost',
+        menuFile: 'ファイル',
+        menuEdit: '編集',
+        menuView: '表示',
+        menuWindow: 'ウインドウ',
+        menuHelp: 'ヘルプ',
+        scrollToBottom: '一番下にスクロール',
+        second: '秒',
+        seconds: '秒'
+    },
+    language: {
+        en: 'English',
+        fr: 'Français',
+        es: 'Español',
+        de: 'Deutsch',
+        zh: '中文',
+        hi: 'हिन्दी',
+        ar: 'العربية',
+        ru: 'Русский',
+        ja: '日本語',
+        tr: 'Türkçe',
+        it: 'Italiano',
+        pl: 'Polski',
+        nl: 'Nederlands',
+        pt: 'Português',
+        switchLanguage: '言語'
+    },
+    theme: {
+        light: 'ライト',
+        dark: 'ダーク',
+        system: 'システム',
+        toggleTheme: 'テーマを切り替え'
+    },
+    nav: {
+        claws: 'Claws',
+        sshKeys: 'SSHキー',
+        account: 'アカウント',
+        affiliate: 'アフィリエイト',
+        license: 'ライセンス',
+        signOut: 'サインアウト',
+        admin: '管理者',
+        login: 'ログイン',
+        deploy: 'デプロイ',
+        deployOpenClaw: 'OpenClawをデプロイ',
+        mainNavigation: 'メインナビゲーション',
+        footerNavigation: 'フッターナビゲーション',
+        toggleMenu: 'メニューを切り替え',
+        cloud: 'Cloud',
+        cloudSubtitle: '技術者向け',
+        go: 'Go',
+        goSubtitle: '非技術者向け',
+        agentistGo: 'Agentist Go'
+    },
+    go: {
+        pageTitle: 'ClawHost Go',
+        heroTitle1: 'OpenClawをデプロイ.',
+        heroTitle2: 'ローカルで. 即座に.',
+        badge: 'OpenClawとHermesに対応',
+        description:
+            'OpenClawインスタンスを管理する軽量デスクトップクライアント。デプロイ、監視、制御をお手元のマシンから.',
+        features: '機能',
+        whyClawHostGo: 'オールインワン機能',
+        featuresDescription: '試す価値がある理由、機能が証明します.',
+        zeroConfigDescription:
+            'サーバー、OpenClaw、Hermesのセットアップに何時間も費やす必要はありません。プリインストール済みで数分で利用可能。',
+        ownedDataDescription:
+            'すべてがお使いのデバイスで動作。クラウドサーバーなし、第三者なし、データが外部に出ることはありません.',
+        terminalAccessDescription:
+            'アプリから直接OpenClawインスタンスのターミナルにアクセス。外部SSHクライアントは不要.',
+        simplePricing: 'シンプルな料金',
+        simplePricingDescription:
+            '1つのライセンスですべて無制限。月額料金なし、使用制限なし、隠れた費用なし.',
+        localDomain: 'カスタムローカルドメイン',
+        localDomainDescription:
+            'カスタムブランドのローカルドメインでOpenClawにアクセス。自分のネットワーク上でクリーンなURL.',
+        secureDescription:
+            'データがデバイスから出ることはありません。完全に隔離され、完全に暗号化され、完全にあなたのもの.',
+        pricing: '料金',
+        pricingTitle: 'シンプルな一回払い',
+        pricingDescription:
+            'サブスクリプションなし、隠れた費用なし。1つのライセンスで無制限に使用.',
+        pricingPrice: '${{price}}',
+        pricingLabel: '一回払い',
+        pricingFeature1: '永久ライセンス',
+        pricingFeature2: '無制限のClaws',
+        pricingFeature3: 'すべての将来のアップデート',
+        pricingFeature4: '使用制限なし',
+        pricingFeature5: '優先サポート',
+        pricingFeature6: 'カスタムローカルドメイン',
+        comparison: '比較',
+        comparisonTitle: 'Go vs Cloud',
+        comparisonDescription:
+            '自分に合うものを選択。Goはローカルで動作、Cloudは専用サーバーで動作.',
+        comparisonLocalUs: 'お使いのデバイスで完全に動作',
+        comparisonLocalOthers: 'リモートサーバーで動作',
+        comparisonPricingUs: '一回払い',
+        comparisonPricingOthers: '月額サブスクリプション',
+        comparisonDataUs: 'データはお使いのマシンに保持',
+        comparisonDataOthers: 'データはクラウドサーバーに保存',
+        comparisonSetupUs: 'インストールして即座に実行',
+        comparisonSetupOthers: 'ワンクリックでデプロイ',
+        comparisonUpdatesUs: '自動アップデート',
+        comparisonUpdatesOthers: '自動アップデート',
+        faqTitle: '質問',
+        faqHeading: 'よくある質問',
+        faqDescription: 'ClawHost Goについて知っておくべきすべてのこと.',
+        faq1Question: 'ClawHost Goとは？',
+        faq1Answer:
+            'ClawHost Goは、お手元のマシンでOpenClawをローカルに実行できる軽量デスクトップアプリケーションです。クラウドサーバーは不要 — インストールして起動するだけで、数秒でOpenClawを使い始められます.',
+        faq2Question: 'GoとClawHost Cloudの違いは？',
+        faq2Answer:
+            'ClawHost CloudはOpenClawを24時間365日稼働のグローバルアクセス可能な専用リモートサーバーにデプロイします。ClawHost Goはすべてをお使いのデバイスでローカルに実行します — プライバシー、オフライン使用、シンプルなセットアップに最適です.',
+        faq3Question: 'インターネット接続は必要ですか？',
+        faq3Answer:
+            'ClawHost Goはローカル使用であればオフラインで動作します。インターネット接続は初期設定、アップデート、外部APIコールが必要な機能にのみ必要です.',
+        faq4Question: 'ライセンスは一回払いですか？',
+        faq4Answer:
+            'はい。一度支払えば、すべての将来のアップデートを含むClawHost Goへの永久アクセスを取得できます。サブスクリプションなし、継続料金なし.',
+        faq5Question: 'どのOSに対応していますか？',
+        faq5Answer:
+            'ClawHost GoはWindowsとmacOSに対応しています。両プラットフォームとも同じ機能を備え、同時にアップデートを受け取れます.',
+        faq6Question: '後からGoからCloudに切り替えられますか？',
+        faq6Answer:
+            'もちろんです。GoからOpenClawの設定をエクスポートし、いつでもClawHost Cloudにデプロイできます。両プラットフォームは完全に互換性があります.',
+        statsPrice: '${{price}}',
+        statsLifetime: '永久',
+        statsOneTime: '一回',
+        statsPayment: '支払い',
+        statsLocal: 'ローカル',
+        statsLocally: 'ローカルで動作',
+        statsZero: 'ゼロ',
+        statsZeroConfig: '設定不要',
+        ctaTitle: 'OpenClawをローカルで実行',
+        ctaDescription:
+            '一回払い、永久ライセンス。お手元のマシンにOpenClawをデプロイ — クラウドなし、サブスクリプションなし、制限なし。あなたのデータ、あなたのルール.',
+        joinWaitlist: 'ウェイトリストに参加',
+        joinedWaitlist: 'ウェイトリスト参加済み',
+        waitlistAlreadyJoinedToast:
+            'このメールアドレスは既にリストに登録されています.',
+        waitlistFailedToast: 'ウェイトリストへの参加に失敗しました!',
+        waitlistEmailPlaceholder: 'メールアドレスを入力',
+        updateAvailable: 'バージョン{{version}}が利用可能です.',
+        updateDownload: 'ダウンロード',
+        updateDismiss: '後で',
+        clawNotFound: 'Clawが見つかりません!',
+        clawNameAlreadyExists: 'この名前のClawは既に存在します!',
+        invalidSubdomain:
+            '無効なサブドメインです。3〜20文字の小文字英字と数字を使用してください!',
+        subdomainAlreadyInUse: 'このサブドメインは既に使用されています!',
+        clawDirectoryNotFound: 'Clawディレクトリが見つかりません!',
+        noVersionInstalled:
+            'OpenClawバージョンがインストールされていません。バージョンタブに移動して最初にインストールしてください!',
+        failedToStartClaw: 'Clawの起動に失敗しました!',
+        noVersionAssigned:
+            'このClawにOpenClawバージョンが割り当てられていません!',
+        invalidAgentName: '無効なエージェント名です!',
+        invalidPath: '無効なパスです!',
+        fileNotFound: 'ファイルが見つかりません!',
+        purchasingNotAvailable: 'ローカルモードでは購入できません!',
+        exportFailed: 'エクスポートに失敗しました!',
+        versionNotInstalled:
+            'OpenClawバージョン{{version}}はインストールされていません!',
+        failedToStartProcess: 'プロセスの起動に失敗しました: {{reason}}!',
+        gatewayNotReady: 'エージェントが時間内に準備完了になりませんでした！',
+        processExitedImmediately:
+            'プロセスが即座に終了しました。ログ:\n{{logs}}',
+        processExitedImmediatelyNoLogs: 'プロセスが起動直後に終了しました!',
+        processExitedWithCode:
+            'プロセスがコード{{code}}で終了しました。ログ:\n{{logs}}',
+        processExitedWithCodeNoLogs: 'プロセスがコード{{code}}で終了しました!',
+        processExitedUnexpectedly: 'プロセスが予期せず終了しました!',
+        failedToInstallVersion:
+            'バージョン {{version}} のインストールに失敗しました: {{reason}}!',
+        oauthCancelled: '認証がキャンセルされました!',
+        diskFull: 'デバイスに空き容量がありません!',
+        permissionDenied: 'アクセスが拒否されました!',
+        networkTimeout: 'ネットワークリクエストがタイムアウトしました!',
+        failedToFetchLatestVersion: '最新バージョンの取得に失敗しました!'
+    },
+    footer: {
+        website: 'ウェブサイト',
+        copyrightName: 'ClawHost',
+        copyrightRights: '全著作権所有.',
+        termsOfService: '利用規約',
+        privacyPolicy: 'プライバシーポリシー',
+        getInTouch: 'お問い合わせ',
+        brandDescription:
+            'ワンクリックで自分のVPSにOpenClawをデプロイ。完全なプライバシー、専用リソース、共有インフラなし.',
+        builtBy: '開発者',
+        supportedBy: '支援者',
+        product: '製品',
+        howItWorks: '仕組み',
+        features: '機能',
+        pricing: '料金',
+        faq: '質問',
+        changelog: '変更履歴',
+        compare: '完全比較',
+        legalAndMore: 'その他',
+        affiliateProgram: 'アフィリエイトプログラム',
+        documentation: 'ドキュメント',
+        productDescription:
+            'ワンクリックでクラウドまたはローカルにOpenClawとHermesエージェントをデプロイ — ClawHostでAIエージェントをより速く構築、接続、スケーリング.',
+        ariaGithub: 'GitHub',
+        ariaX: 'X',
+        ariaFacebook: 'Facebook',
+        ariaInstagram: 'Instagram',
+        ariaThreads: 'Threads',
+        ariaYoutube: 'YouTube',
+        ariaTiktok: 'TikTok'
+    },
+    errors: {
+        somethingWentWrong: '問題が発生しました!',
+        couldNotLoadData:
+            'データを読み込めませんでした。もう一度お試しください!',
+        notFound: 'ページが見つかりません!',
+        pageNotFoundDescription:
+            'お探しのページは存在しないか、移動されました.',
+        goToHomepage: 'ホームページへ',
+        failedToLoadAgents: 'Agentsの読み込みに失敗しました!',
+        failedToLoadAgentsDescription:
+            'Agentsを読み込めませんでした。接続を確認して、もう一度お試しください!',
+        failedToLoadSSHKeys: 'SSHキーの読み込みに失敗しました!',
+        failedToLoadSSHKeysDescription:
+            'SSHキーを読み込めませんでした。接続を確認して、もう一度お試しください!',
+        failedToUpdateProfile: 'プロフィールの更新に失敗しました!',
+        failedToAddSSHKey: 'SSHキーの追加に失敗しました!',
+        failedToCreateClaw: 'Clawの作成に失敗しました!',
+        failedToLoadLocations:
+            'ロケーションの読み込みに失敗しました。もう一度お試しください!',
+        failedToLoadPlans:
+            'プランの読み込みに失敗しました。もう一度お試しください!',
+        invalidPlan: '無効なプランが選択されました!',
+        invalidLocation: 'ロケーションを選択してください!',
+        failedToGenerateKeyPair:
+            'キーペアの生成に失敗しました。代わりにローカルでキーを生成してください!',
+        unableToLoadPricing:
+            '料金情報を読み込めません。後でもう一度お試しください!',
+        noPasswordAvailable: 'このClawで利用可能なパスワードがありません!'
+    },
+    api: {
+        missingRequiredFields: '必須フィールドが不足しています!',
+        agentNotFound: 'Agentが見つかりません!',
+        agentRenamed: 'Agentの名前を変更しました.',
+        agentEmojiUpdated: 'エージェントの絵文字が更新されました。',
+        failedToUpdateEmoji: '絵文字の更新に失敗しました！',
+        invalidAgentName: 'Agent名は1〜{{max}}文字である必要があります!',
+        userNotFound: 'ユーザーが見つかりません!',
+        sshKeyNotFound: 'SSHキーが見つかりません!',
+        pendingAgentNotFound: '保留中のAgentが見つかりません!',
+        agentNotScheduledForDeletion: 'Agentは削除予定に設定されていません!',
+        agentDeletionAlreadyPassed: '削除日はすでに過ぎています!',
+        agentLimitReached:
+            'Agentsの上限{{max}}件に達しました。上限を引き上げるにはサポートにお問い合わせください!',
+        sshKeyLimitReached:
+            'SSHキーの上限{{max}}件に達しました。上限を引き上げるにはサポートにお問い合わせください!',
+        volumeSizeInvalid:
+            'ボリュームサイズは{{min}}〜{{max}} GBの間である必要があります!',
+        paymentNotConfigured: 'このプランの支払いが設定されていません!',
+        invalidSshKeyFormat: '無効なSSH公開鍵形式です!',
+        sshKeyInUse: 'このSSHキーは1つ以上のAgentsで使用中です!',
+        inputTooLong: '入力が最大許容長を超えています!',
+        invalidEmailFormat: '無効なメール形式です!',
+        plusAddressingNotAllowed:
+            'メールログインではプラスアドレッシングは許可されていません!',
+        invalidRedirectUrl: '無効なリダイレクトURLです!',
+        fileTooLarge: 'ファイル内容が最大許容サイズを超えています!',
+        nameAndKeyRequired: '名前と公開鍵は必須です!',
+        nameTooLong: '名前は{{max}}文字以内にしてください!',
+        noBillingAccount: '請求アカウントが見つかりません!',
+        orderIdRequired: '注文IDは必須です!',
+        orderNotFound: '注文が見つかりません!',
+        emailRequired: 'メールアドレスは必須です!',
+        redirectUrlRequired: 'リダイレクトURLは必須です!',
+        invalidWebhook: '無効なWebhookです!',
+        failedToStartAgent: 'Agentの起動に失敗しました!',
+        failedToStopAgent: 'Agentの停止に失敗しました!',
+        failedToRestartAgent: 'Agentの再起動に失敗しました!',
+        failedToDeleteAgent: 'Agentの削除に失敗しました!',
+        failedToCreateAgent: 'Agentの作成に失敗しました!',
+        invalidProvider: '無効なプロバイダーです!',
+        providerNotAllowed: 'このプロバイダーは現在利用できません!',
+        invalidPlan: '無効なプランが選択されました!',
+        planBelowMinimumMemory: 'このプランは最小メモリ要件を満たしていません!',
+        invalidLocation: '無効なロケーションが選択されました!',
+        planNotAvailableAtLocation:
+            '選択したロケーションではこのプランは利用できません!',
+        failedToSyncAgent: 'サーバーステータスの同期に失敗しました!',
+        failedToProvisionAgent: 'Agentのプロビジョニングに失敗しました!',
+        failedToInitiatePurchase: '購入の開始に失敗しました!',
+        failedToCancelDeletion: '削除のキャンセルに失敗しました!',
+        failedToHardDeleteAgent: 'Agentの完全削除に失敗しました!',
+        failedToCancelScheduledDeletion:
+            '予定されていた削除のキャンセルに失敗しました!',
+        failedToCreateSshKey: 'SSHキーの作成に失敗しました!',
+        failedToDeleteSshKey: 'SSHキーの削除に失敗しました!',
+        failedToUpdateProfile: 'プロフィールの更新に失敗しました!',
+        failedToGetProfile: 'プロフィールの取得に失敗しました!',
+        failedToGetInvoice: '請求書の取得に失敗しました!',
+        failedToGetCustomerPortal: 'カスタマーポータルの取得に失敗しました!',
+        failedToGetBillingHistory: '請求履歴の取得に失敗しました!',
+        failedToGetStats: '統計情報の取得に失敗しました!',
+        affiliateFetched: 'Affiliate info fetched successfully.',
+        failedToGetAffiliate: 'Failed to get affiliate info!',
+        invalidPeriod: '無効な期間フィルター！',
+        referralCodeUpdated: 'Referral code updated successfully.',
+        failedToUpdateReferralCode: 'Failed to update referral code!',
+        invalidReferralCodeLength:
+            'Referral code must be between {{min}} and {{max}} characters!',
+        invalidReferralCodeFormat:
+            'Referral code can only contain letters, numbers, hyphens, and underscores!',
+        referralCodeAlreadyChanged: 'Referral code can only be changed once!',
+        referralCodeTaken: 'This referral code is already taken!',
+        referralCodeGenerated: 'Referral code generated.',
+        failedToGenerateReferralCode: 'Failed to generate referral code!',
+        failedToFetchLocations: 'ロケーションの取得に失敗しました!',
+        failedToFetchPlans: 'プランの取得に失敗しました!',
+        failedToFetchVolumePricing: 'ボリューム料金の取得に失敗しました!',
+        failedToFetchPlanAvailability:
+            'プランの利用可能状況の取得に失敗しました!',
+        failedToSendEmail: 'メールの送信に失敗しました!',
+        failedToGetVersion: 'バージョンの取得に失敗しました!',
+        failedToGetVersions: 'バージョン一覧の取得に失敗しました!',
+        failedToInstallVersion: 'バージョンのインストールに失敗しました!',
+        installVersionSuccess: 'バージョンをインストールしました.',
+        invalidVersion: '無効なバージョン形式です!',
+        outdatedVersion: 'このバージョンは古いため、インストールできません!',
+        failedToGetDiagnostics: 'インスタンスへの接続に失敗しました!',
+        failedToGetDiagnosticsDescription:
+            '診断情報を取得できませんでした。インスタンスがオフラインまたは起動中の可能性があります.',
+        failedToGetLogs: 'ログの読み込みに失敗しました!',
+        failedToGetLogsDescription:
+            'このインスタンスのログを取得できませんでした。後でもう一度お試しください.',
+        failedToReinstallAgent: 'インスタンスの再インストールに失敗しました!',
+        reinstallSuccess: 'インスタンスを再インストールしました.',
+        reinstallRateLimited:
+            '再インストールは24時間に1回のみ可能です。この制限を解除するにはチームにお問い合わせください.',
+        subdomainRateLimited:
+            'サブドメインの変更は24時間に1回のみ可能です。この制限を解除するにはチームにお問い合わせください.',
+        subdomainUpdated: 'サブドメインを更新しました.',
+        invalidSubdomain:
+            '無効なサブドメインです。3〜20文字の小文字英字と数字を使用してください!',
+        subdomainAlreadyInUse: 'このサブドメインは既に使用されています!',
+        subdomainNotSupported:
+            'このエージェントタイプはサブドメインを使用しません。',
+        agentBusy: 'Agentは現在プロビジョニング中または削除中です!',
+        reinstallGatewayNotResponding:
+            '再インストールは完了しましたが、ゲートウェイがまだ応答していません。起動にもう少し時間がかかる場合があります.',
+        failedToRepairAgent: 'Failed to repair the instance!',
+        repairSuccess: 'Instance repaired successfully.',
+        repairGatewayNotResponding:
+            'Repair applied but gateway is not responding yet. It may need more time to start.',
+        failedToExportAgent: 'Agentデータのエクスポートに失敗しました!',
+        agentNotReady: 'Agentはエクスポートの準備ができていません!',
+        exportRateLimited:
+            'このAgentは最近エクスポートされました。再度エクスポートする前にお待ちください!',
+        failedToListFiles: 'インスタンスファイルの一覧取得に失敗しました!',
+        failedToReadFile: 'ファイルの読み取りに失敗しました!',
+        failedToUpdateFile: 'ファイルの保存に失敗しました!',
+        invalidFilePath: '無効なファイルパスです!',
+        fileNotEditable: 'このファイル種別は編集できません!',
+        invalidJsonConfig: '無効なJSONです!',
+        fileSaveSuccess: 'ファイルを保存しました.',
+        rateLimitExceeded: '次のコードをリクエストする前にお待ちください!',
+        otpExpiredOrNotFound:
+            'コードの有効期限が切れたか見つかりません。新しいコードをリクエストしてください!',
+        otpMaxAttemptsReached:
+            '試行回数が多すぎます。新しいコードをリクエストしてください!',
+        otpInvalidCode: '無効なコードです。もう一度お試しください!',
+        licenseAlreadyPurchased: 'ライセンスは既に購入済みです!',
+        licenseNotAvailable: 'ライセンス製品は利用できません!',
+        licenseCheckoutCreated: 'ライセンスのチェックアウトを作成しました.',
+        failedToPurchaseLicense:
+            'ライセンスのチェックアウト作成に失敗しました!',
+        internalServerError: '内部エラーが発生しました!',
+        invalidCredentials: '無効な認証情報です!',
+        accountLinked: 'アカウントを連携しました.',
+        webhookProcessingFailed: 'Webhookの処理に失敗しました!',
+        adminAccessDenied: '管理者アクセスが必要です!',
+        agentsFetched: 'Agentsを取得しました.',
+        agentFetched: 'Agentを取得しました.',
+        agentStarsFetched: 'エージェントのスター数を取得しました.',
+        agentSynced: 'Agentを同期しました.',
+        agentStarted: 'Agentを起動しました.',
+        agentStopped: 'Agentを停止しました.',
+        agentRestarted: 'Agentを再起動しました.',
+        agentCreated: 'Agentを作成しました.',
+        agentDeleted: 'Agentを削除しました.',
+        agentDeletionScheduled: 'Agentの削除を予約しました.',
+        agentDeletionCancelled: 'Agentの削除をキャンセルしました.',
+        agentHardDeleted: 'Agentを完全に削除しました.',
+        pendingAgentCancelled: '購入をキャンセルしました.',
+        failedToCancelPendingAgent: '購入のキャンセルに失敗しました!',
+        agentPurchaseInitiated: '購入を開始しました.',
+        sshKeysFetched: 'SSHキーを取得しました.',
+        sshKeyCreated: 'SSHキーを作成しました.',
+        sshKeyDeleted: 'SSHキーを削除しました.',
+        profileFetched: 'プロフィールを取得しました.',
+        profileUpdated: 'プロフィールを更新しました.',
+        statsFetched: '統計情報を取得しました.',
+        billingHistoryFetched: '請求履歴を取得しました.',
+        invoiceFetched: '請求書を取得しました.',
+        customerPortalFetched: 'カスタマーポータルURLを取得しました.',
+        plansFetched: 'プランを取得しました.',
+        locationsFetched: 'ロケーションを取得しました.',
+        volumePricingFetched: 'ボリューム料金を取得しました.',
+        planAvailabilityFetched: 'プランの利用可能状況を取得しました.',
+        diagnosticsFetched: '診断情報を取得しました.',
+        metricsFetched: 'メトリクスを取得しました.',
+        failedToGetMetrics: 'サーバーメトリクスの取得に失敗しました!',
+        overviewFetched: '概要を取得しました.',
+        failedToGetOverview: 'ゲートウェイの概要の取得に失敗しました!',
+        overviewUnsupported:
+            'このOpenClawバージョンは概要機能をサポートしていません!',
+        passwordRotated: 'Rootパスワードのローテーションに成功しました.',
+        failedToRotatePassword: 'Rootパスワードのローテーションに失敗しました!',
+        gatewayTokenRotated:
+            'ゲートウェイトークンのローテーションに成功しました.',
+        failedToRotateGatewayToken:
+            'ゲートウェイトークンのローテーションに失敗しました!',
+        sshKeyUpdated: 'SSH鍵の更新に成功しました.',
+        failedToUpdateSSHKey: 'SSH鍵の更新に失敗しました!',
+        invalidPassword:
+            'パスワードは{{min}}文字以上{{max}}文字以下にしてください!',
+        invalidGatewayToken:
+            'ゲートウェイトークンは{{min}}文字以上{{max}}文字以下にしてください!',
+        enablePreviewSuccess: 'プレビューモードが正常に有効になりました.',
+        failedToEnablePreview: 'プレビューモードの有効化に失敗しました!',
+        logsFetched: 'ログを取得しました.',
+        filesFetched: 'ファイルを取得しました.',
+        fileFetched: 'ファイルを取得しました.',
+        otpSent: 'コードを送信しました.',
+        otpVerified: 'コードを確認しました.',
+        webhookReceived: 'Webhookを受信しました.',
+        unauthorized: '未認証です!',
+        invalidToken: '無効なトークンです!',
+        notFound: '見つかりません!',
+        healthOk: 'APIは稼働中です.',
+        featureVersionUnsupported:
+            'この機能はバージョン {{version}} ではサポートされていません。OpenClawを更新するか、ターミナルを使用して手動で管理してください。',
+        invalidAuthMethod: '無効な認証方法です!',
+        authMethodNotConnected: 'この認証方法は接続されていません!',
+        authMethodConnected: '認証方法を接続しました.',
+        authMethodDisconnected: '認証方法を切断しました.',
+        failedToConnectAuthMethod: '認証方法の接続に失敗しました!',
+        failedToDisconnectAuthMethod: '認証方法の切断に失敗しました!',
+        featureEmailsDisabled: '機能メールは現在無効です.',
+        featureEmailsSent: '機能メールを送信しました.',
+        featureEmailsFailed: '機能メールの送信に失敗しました!',
+        invalidFeatureKey: '無効な機能キーです!',
+        waitlistJoined: 'ウェイトリストに参加しました.',
+        waitlistAlreadyJoined: '既にウェイトリストに登録済みです.',
+        waitlistJoinFailed: 'ウェイトリストへの参加に失敗しました!',
+        waitlistRateLimited:
+            '操作が速すぎます! {{seconds}} {{unit}}後に再試行してください.',
+        waitlistStatusFetched: 'ウェイトリストのステータスを取得しました.',
+        waitlistCheckFailed: 'ウェイトリストのステータス確認に失敗しました!',
+        adminUsersFetched: 'ユーザーを取得しました。',
+        failedToGetAdminUsers: 'ユーザーの取得に失敗しました！',
+        adminUserDetailFetched: 'ユーザー詳細を取得しました。',
+        failedToGetAdminUserDetail: 'ユーザー詳細の取得に失敗しました！',
+        adminUserUpdated: 'ユーザーを更新しました。',
+        failedToUpdateAdminUser: 'ユーザーの更新に失敗しました！',
+        adminStatsFetched: '統計を取得しました。',
+        failedToGetAdminStats: '統計の取得に失敗しました！',
+        adminAnalyticsFetched: '分析を取得しました。',
+        failedToGetAdminAnalytics: '分析の取得に失敗しました！',
+        adminBillingFetched: '請求を取得しました。',
+        failedToGetAdminBilling: '請求の取得に失敗しました！',
+        adminAgentsFetched: 'Agentsを取得しました。',
+        failedToGetAdminAgents: 'Agentsの取得に失敗しました！',
+        adminSSHKeysFetched: 'SSHキーを取得しました。',
+        failedToGetAdminSSHKeys: 'SSHキーの取得に失敗しました！',
+        adminVolumesFetched: 'ボリュームを取得しました。',
+        failedToGetAdminVolumes: 'ボリュームの取得に失敗しました！',
+        adminReferralsFetched: 'Referrals fetched.',
+        failedToGetAdminReferrals: 'Failed to fetch referrals!',
+        adminPendingAgentsFetched: 'Pending agents fetched.',
+        failedToGetAdminPendingAgents: 'Failed to fetch pending agents!',
+        adminWaitlistFetched: 'Waitlist fetched.',
+        failedToGetAdminWaitlist: 'Failed to fetch waitlist!',
+        adminExportsFetched: 'Exports fetched.',
+        adminEmailsFetched: 'Emails fetched.',
+        failedToGetAdminEmails: 'Failed to fetch emails!'
+    },
+    emails: {
+        otpSubject: 'ClawHostサインインコード',
+        otpPreview: 'ClawHostサインインコード: {{code}}',
+        otpHeading: 'サインインコード:',
+        otpExpiry:
+            'コードは10分で期限切れになります。心当たりがない場合は、このメールを無視してください。',
+        featureFooter:
+            'ClawHostアカウントをお持ちのため、このメールをお送りしています。',
+        features: {
+            terminal: {
+                subject: 'ご存知ですか？Webターミナルが使えます',
+                preview: 'ブラウザから直接サーバーにアクセス',
+                tag: 'Webターミナル',
+                heading: 'サーバーはワンクリックで',
+                description:
+                    '内蔵ターミナルでブラウザから直接サーバーにアクセスできます。SSHクライアント不要 — ClawHostを開いてコマンドを入力するだけ。',
+                cta: 'ターミナルを開く'
+            },
+            logs: {
+                subject: 'ご存知ですか？ダッシュボードでリアルタイムログ',
+                preview: 'ブラウザを離れずにサーバーログを監視',
+                tag: 'ライブログ',
+                heading: 'サーバーの状況を確認',
+                description:
+                    'ClawHostダッシュボードからリアルタイムでサーバーログを監視。問題の診断、デプロイの追跡、アプリケーションのデバッグをブラウザから。',
+                cta: 'ログを見る'
+            },
+            fileExplorer: {
+                subject: 'ご存知ですか？ブラウザからサーバーファイルを編集',
+                preview: 'SSH不要でファイルの閲覧、読み取り、編集',
+                tag: 'ファイルエクスプローラー',
+                heading: 'ファイルを手元に',
+                description:
+                    'ClawHostダッシュボードからサーバー上のファイルを直接閲覧、読み取り、編集。シンタックスハイライト、検索、即座の保存 — SSH不要。',
+                cta: 'ファイルエクスプローラーを開く'
+            },
+            diagnostics: {
+                subject: 'ご存知ですか？内蔵ヘルスチェック',
+                preview: 'ダッシュボードからサーバーの健全性を監視',
+                tag: '診断',
+                heading: 'サーバーの健全性を確認',
+                description:
+                    'Clawで診断を実行してサービスステータス、メモリ使用量、ポートの可用性を確認。問題が大きくなる前に発見。',
+                cta: '診断を実行'
+            },
+            sshKeys: {
+                subject: 'ご存知ですか？ClawHostからSSHキーを管理',
+                preview: 'ダッシュボードでSSHキーペアを生成・管理',
+                tag: 'SSHキー',
+                heading: 'SSHキーをシンプルに',
+                description:
+                    'SSHキーペアの生成、公開鍵のコピー、秘密鍵のダウンロード — すべてClawHostダッシュボードから。セキュアなアクセスのためにClawにキーを割り当て。',
+                cta: 'SSHキーを管理'
+            },
+            exportConfig: {
+                subject: 'ご存知ですか？Claw設定をエクスポート',
+                preview: 'Clawのセットアップをポータブル設定としてダウンロード',
+                tag: '設定エクスポート',
+                heading: '設定を持ち運び',
+                description:
+                    'Clawの設定とセッティングをダウンロード可能なファイルとしてエクスポート。セットアップのバックアップや環境の複製に使用。',
+                cta: '設定をエクスポート'
+            },
+            multiLanguage: {
+                subject: 'ご存知ですか？ClawHostはあなたの言語に対応',
+                preview: 'ClawHostを14言語で使用',
+                tag: '多言語対応',
+                heading: 'あなたの言語でClawHost',
+                description:
+                    'ClawHostダッシュボード全体を14言語のいずれかに切り替え。ボタンからエラーメッセージまで — 完全に翻訳。',
+                cta: '言語を変更'
+            },
+            subdomain: {
+                subject: 'ご存知ですか？各Clawに専用サブドメイン',
+                preview: 'カスタムURLでどこからでもClawにアクセス',
+                tag: 'カスタムサブドメイン',
+                heading: 'どこからでもアクセス',
+                description:
+                    'すべてのClawに固有のサブドメインが付与され、どこからでもOpenClawインスタンスにアクセス可能。ポートフォワーディング不要、ローカルネットワーク不要 — URLだけ。',
+                cta: 'サブドメインを見る'
+            },
+            darkMode: {
+                subject: 'ご存知ですか？ClawHostにはダークモードがあります',
+                preview: 'ライトテーマとダークテーマを切り替え',
+                tag: 'ダークモード',
+                heading: '目に優しい',
+                description:
+                    'ClawHostダッシュボードでライトテーマとダークテーマを切り替え。設定は保存され、毎回自動的に適用。',
+                cta: 'ダークモードを試す'
+            },
+            reinstall: {
+                subject: 'ご存知ですか？ワンクリックでOpenClawを再インストール',
+                preview: 'サーバーを失わずにOpenClawインスタンスをリセット',
+                tag: '再インストール',
+                heading: '新しいスタート、同じサーバー',
+                description:
+                    '既存のサーバーにワンクリックでOpenClawランタイムを再インストール。サーバーはそのまま — OpenClawだけがクリーンインストール。',
+                cta: '詳細を見る'
+            },
+            yearlyPlans: {
+                subject: 'ご存知ですか？年間プランでお得に',
+                preview: '年間契約に切り替えて節約',
+                tag: '年間プラン',
+                heading: 'もっとお得に',
+                description:
+                    '年間契約に切り替えてClawサブスクリプションを節約。同じ素晴らしいサービス、より低い価格 — いつでもキャンセル可能。',
+                cta: 'プランを見る'
+            }
+        }
+    },
+    auth: {
+        signIn: '認証',
+        signInDescription:
+            'ClawHostアカウントにサインインしてOpenClawインスタンスを管理。',
+        signingIn: '認証中...',
+        verifyCode: 'コードを確認',
+        checkYourEmail: 'メールを確認',
+        checkYourEmailHeading: 'メールを確認してください',
+        codeSentTo: '6桁のコードを送信しました',
+        signInToDeployOpenClaw:
+            'ワンクリックでエージェントを管理・デプロイするために認証してください。',
+        emailAddress: 'メールアドレス',
+        emailPlaceholder: 'example@clawhost.cloud',
+        continueWithEmail: 'メールで続行',
+        otpDescription: 'サインインコードをお送りします。パスワード不要。',
+        welcomeBack: 'おかえりなさい。',
+        resendIn: '{{seconds}}秒後に再送信',
+        resendCode: 'コードを再送信',
+        changeEmail: 'メールアドレスを変更',
+        invalidCode: '無効なコードです！',
+        invalidEmailFormat: '有効なメールアドレスを入力してください！',
+        plusAddressingNotAllowed:
+            'メールログインにプラスアドレッシングは使用できません！',
+        or: 'または',
+        continueWithGoogle: 'Googleで続行',
+        continueWithGithub: 'GitHubで続行',
+        agreementNotice: '続行することで、以下に同意したものとみなされます',
+        termsOfService: '利用規約',
+        andWord: 'と',
+        privacyPolicy: 'プライバシーポリシー'
+    },
+    account: {
+        title: 'アカウント',
+        description: 'ClawHostアカウントの設定とプロフィール情報を管理。',
+        accountSettings: 'アカウント',
+        manageYourAccount: 'プロフィールとアカウント設定を管理。',
+        profileInformation: 'プロフィール情報',
+        profileDescription: '個人情報と表示名。',
+        noNameSet: '名前未設定',
+        joined: '登録日',
+        claws: 'Claw',
+        sshKeys: 'キー',
+        displayName: '表示名',
+        enterYourName: '名前を入力',
+        emailAddress: 'メールアドレス',
+        emailNotEditable:
+            'メールアドレスは編集できません。サポートにお問い合わせください。',
+        profileUpdatedSuccessfully: 'プロフィールを更新しました。',
+        billingAndSubscription: '請求とサブスクリプション',
+        billingAndSubscriptionDescription:
+            'お支払い方法、サブスクリプション、請求書を管理。',
+        viewBillingHistory: 'お支払い履歴、請求書、サブスクリプションを確認。',
+        connectedAccounts: '連携アカウント',
+        connectedAccountsDescription:
+            'アカウントに紐付けられたサインイン方法を管理。',
+        authEmail: 'メール',
+        authGoogle: 'Google',
+        authGithub: 'GitHub',
+        authConnected: '接続済み',
+        authConnect: '接続',
+        authDisconnect: '切断',
+        emailCannotBeDisconnected:
+            'メールは主要なサインイン方法として常に接続されています。',
+        providerConnected: '{{provider}}を接続しました。',
+        providerDisconnected: '{{provider}}を切断しました。',
+        providerEmailMismatch:
+            '同じメールアドレスを使用するアカウントのみ接続できます！',
+        settings: '設定',
+        settingsDescription: 'ダッシュボードの設定を管理。',
+        openLinksWindowed: 'リンクをウィンドウビューで開く',
+        openLinksWindowedDescription:
+            '有効にすると、外部リンクがシステムブラウザではなくアプリ内で開きます。'
+    },
+    billing: {
+        date: '日付',
+        product: '製品',
+        amount: '金額',
+        status: 'ステータス',
+        statusPaid: '支払い済み',
+        statusPending: '保留中',
+        statusRefunded: '返金済み',
+        statusPartiallyRefunded: '一部返金済み',
+        billingReasonPurchase: '購入',
+        billingReasonSubscriptionCreate: '新規サブスクリプション',
+        billingReasonSubscriptionCycle: '更新',
+        billingReasonSubscriptionUpdate: 'サブスクリプション変更',
+        failedToLoadBilling: '請求履歴の読み込みに失敗しました！',
+        downloadInvoice: '請求書をダウンロード',
+        invoiceCanceledNavigation:
+            '請求書のダウンロードが中断されました。ページを離れたためです。',
+        failedToLoadInvoice: '請求書の読み込みに失敗しました！',
+        couponApplied: 'クーポン: {{name}}',
+        manageBilling: '請求を管理',
+        failedToLoadPortal: '請求ポータルを開けませんでした！',
+        portalCanceledNavigation:
+            '請求ポータルが中断されました。ページを離れたためです。'
+    },
+    license: {
+        title: 'ライセンス',
+        description: 'OpenClawライセンスを管理。',
+        pageTitle: 'ライセンス',
+        pageDescription:
+            'Goアプリでローカルにセルフホストする場合にOpenClawインスタンスのライセンスを購入。',
+        planName: 'ClawHost Goライセンス',
+        oneTimePurchase: '一回限りの購入',
+        price: '${{price}}',
+        priceNote: '一度支払えば、永久に所有。',
+        purchaseLicense: 'ライセンスを購入',
+        purchasing: 'リダイレクト中...',
+        activated: 'ライセンス有効',
+        activatedDescription:
+            'ライセンスは有効です。ご支援ありがとうございます。',
+        paymentSuccess: '支払いが完了しました。ライセンスが有効になりました。',
+        failedToPurchase: 'チェックアウトの開始に失敗しました！',
+        featureUnlimitedClaws: '無制限のOpenClaw',
+        featureDevices: '無制限のデバイス',
+        featureUpdates: '永久アップデート',
+        featureSupport: '優先サポート',
+        featureCloud: 'すべてのクラウド機能をローカルで',
+        whatsIncluded: '含まれるもの',
+        gateTitle: 'ライセンスが必要',
+        gateDescription:
+            'ローカルでOpenClawインスタンスをデプロイ・管理するにはClawHost Goライセンスが必要です。'
+    },
+    network: {
+        offline: 'インターネット接続なし',
+        offlineDescription:
+            '現在オフラインです。インターネットアクセスが必要な機能は利用できません。'
+    },
+    dashboard: {
+        title: 'Claw',
+        description:
+            'デプロイ済みのOpenClawインスタンスを表示・管理。VPSサーバーの起動、停止、再起動、監視。',
+        claw: 'Claw',
+        clawsPlural: 'Claw',
+        clawCountLabel: '{{count}} Claw',
+        clawCountLabelSingular: '{{count}} Claw',
+        newClaw: '新しいClaw',
+        searchAgents: 'エージェントを検索...',
+        searchAgentsCount: '{{count}} エージェントを検索...',
+        noAgentsMatchSearch: '検索に一致するエージェントが見つかりません.',
+        clawActions: 'Clawアクション',
+        noAgentsYet: 'エージェントなし',
+        noAgentsDescription:
+            'デプロイ済みのエージェントが見つかりません。$25/月から最初のエージェントをいつでもデプロイできます。AIにお任せ。',
+        deleteClaw: 'Clawを削除',
+        deleteClawConfirmation: '本当に削除しますか',
+        deleteClawWarning:
+            'サブスクリプションはキャンセルされ、現在の請求期間の終了時にサーバーが削除されます。それまで使い続けることができます。',
+        actionCannotBeUndone: 'この操作は元に戻せません。',
+        start: '起動',
+        startServer: 'サーバーを起動',
+        stop: '停止',
+        stopServer: 'サーバーを停止',
+        restart: '再起動',
+        restartServer: 'サーバーを再起動',
+        startClaw: 'サーバーを起動',
+        startClawConfirmation:
+            'サーバーとすべてのプロセスを起動します。必要な場合にのみ実行してください。',
+        stopClaw: 'サーバーを停止',
+        stopClawConfirmation:
+            'サーバー上のOpenClawを含むすべての実行中のプロセスが終了します。データは失われません。必要な場合にのみ実行してください。いつでも再起動できます。停止しても課金は停止しません — 課金を停止するにはサーバーを削除してください。',
+        restartClaw: 'サーバーを再起動',
+        restartClawConfirmation:
+            'サーバー上のOpenClawを含むすべての実行中のプロセスが終了し、再起動します。データは失われません。必要な場合にのみ実行してください。',
+        copyPassword: 'パスワードをコピー',
+        copySshWithKey: 'SSHをコピー（鍵使用）',
+        copySshWithPassword: 'SSHをコピー（パスワード使用）',
+        connect: 'SSHコマンドをコピー',
+        viewServerCredentials: 'サーバー認証情報を見る',
+        serverCredentials: 'サーバー認証情報',
+        serverCredentialsDescription:
+            'これらの認証情報を使用してSSH経由でサーバーに接続します。',
+        sshCommand: 'SSHコマンド',
+        rootPassword: 'Rootパスワード',
+        sshCommandCopied: 'SSHコマンドをコピーしました。',
+        sshCommandWithPasswordCopied:
+            'パスワード付きSSHコマンドをコピーしました。',
+        passwordCopiedToClipboard:
+            'パスワードをクリップボードにコピーしました。',
+        plan: 'サーバー',
+        location: 'ロケーション',
+        ip: 'IP',
+        domain: 'ドメイン',
+        ipAddress: 'IPアドレス',
+        port: 'ポート',
+        subscription: 'サブスクリプション',
+        history: '履歴',
+        planCost: 'プラン',
+        serverId: 'サーバーID',
+        created: '作成日',
+        sshKey: 'SSHキー',
+        storage: 'ストレージ',
+        nextBilling: '次回請求',
+        lastBilling: '前回請求',
+        totalSpent: '合計支出',
+        version: 'バージョン',
+        gatewayToken: 'ゲートウェイトークン',
+        gatewayTokenDescription:
+            'このトークンを使用してゲートウェイで認証します',
+        contactSupport: 'サポートに連絡',
+        scheduledForDeletion: '削除予定',
+        scheduledDeletionShort: '{{date}}に削除',
+        deletionDate: 'このClawは{{date}}に削除されます',
+        deletionTooltip:
+            '{{date}}に削除予定。キャンセルするにはメニューを使用してください。',
+        pastDue: '支払い失敗',
+        deletionFailed: '削除に失敗しました',
+        pastDueDescription:
+            '支払いに失敗しました。14日以内に解決されない場合、このClawは完全に削除されます。',
+        updatePayment: '支払いを更新',
+        cancelDeletion: '削除をキャンセル',
+        cancelDeletionConfirmation:
+            '本当によろしいですか？サブスクリプションはアクティブなままで、引き続き課金されます。インスタンスは稼働し続けます。',
+        deletionCancelled: '削除をキャンセルしました。',
+        scheduleDeletion: '削除をスケジュール',
+        resumeCheckout: 'チェックアウトを再開',
+        cancelPurchase: '購入をキャンセル',
+        hardDelete: '強制削除',
+        hardDeleteClaw: '強制削除',
+        hardDeleteConfirmation:
+            'このClawを即座に削除してもよろしいですか？現在の請求期間の残り時間を失います。この操作は元に戻せません。',
+        diagnostics: '診断',
+        diagnosticsDescription: 'OpenClawインスタンスの健全性を確認。',
+        diagnosticsStatus: 'ステータス',
+        diagnosticsLogs: 'ログ',
+        diagnosticsRepair: 'Repair',
+        diagnosticsRepairDescription:
+            'Remove memory limits, apply latest service configuration, and restart the gateway. This fixes most common issues.',
+        diagnosticsRepairSuccess: 'Instance repaired successfully.',
+        diagnosticsRepairFailed:
+            'Repair applied but gateway is not responding yet!',
+        diagnosticsLoading: 'インスタンスに接続中...',
+        diagnosticsNoLogs:
+            'ログがありません。インスタンスを起動してログを生成してください。',
+        diagnosticsIssueDetected: 'インスタンスに問題が検出されました。',
+        diagnosticsHealthy: 'インスタンスは正常に動作しています。',
+        diagnosticsPort: 'ポート 18789',
+        diagnosticsMemory: 'メモリ',
+        logsDescription: 'ゲートウェイログの最新100行、自動更新。',
+        fileExplorer: 'ファイルエクスプローラー',
+        fileExplorerRoot: 'openclaw',
+        fileExplorerDescription:
+            'OpenClawの設定ファイルを閲覧・編集。誤った変更はインスタンスを壊す可能性があります。',
+        fileExplorerSelectFile: 'ファイルを選択して内容を表示。',
+        fileExplorerReadOnly: '読み取り専用',
+        fileExplorerSave: '保存',
+        fileExplorerSaved: 'ファイルを保存しました。',
+        fileExplorerSaveCanceledNavigation:
+            'ファイルの保存が中断されました。ページを離れたためです。',
+        fileExplorerInvalidJson:
+            '無効なJSONです。保存する前に構文エラーを修正してください！',
+        fileExplorerNoFiles: 'ファイルが見つかりません',
+        fileExplorerSearchFiles: 'ファイルを検索...',
+        fileExplorerNoSearchResults: '一致するファイルがありません。',
+        startFailed: 'Clawの起動に失敗しました！',
+        renameSuccess: 'Clawの名前を変更しました。',
+        renameFailed: 'Clawの名前変更に失敗しました！',
+        renameInvalidChars: '英字、数字、ダッシュのみ使用できます！',
+        reinstallInstance: 'インスタンスを再インストール',
+        reinstallClaw: 'インスタンスを再インストール',
+        reinstallClawConfirmation:
+            'このインスタンスに{{agentName}}を完全に再インストールします。すべての設定、エージェント、データがリセットされます。この操作は元に戻せません。続行しますか？',
+        reinstallInstanceSuccess: 'インスタンスを再インストールしました。',
+        reinstallInstanceFailed: 'インスタンスの再インストールに失敗しました！',
+        reinstallCanceledNavigation:
+            '再インストールが中断されました。ページを離れたためです。',
+        openControlPanel: 'コントロールパネルを開く',
+        exportData: 'Clawをエクスポート (.zip)',
+        exportAgent: 'エクスポート',
+        exportAgentButton: 'データをエクスポート',
+        exportAgentTooltip:
+            'このエージェントとすべてのデータを.zipファイルとしてダウンロードします。',
+        exportAgentInProgress:
+            '大きなエージェントの場合、エクスポートに数分かかることがあります。',
+        exportStarted: 'エクスポートを準備中、しばらくお待ちください...',
+        exportSuccess: 'Clawをエクスポートしました。',
+        exportFailed: 'Clawデータのエクスポートに失敗しました！',
+        exportCanceledNavigation:
+            'エクスポートをキャンセルしました。ページを離れたためです。',
+        scheduleDeletionCanceledNavigation:
+            '削除予約が中断されました。ページを離れたためです。',
+        cancelDeletionCanceledNavigation:
+            '削除取り消しが中断されました。ページを離れたためです。',
+        hardDeleteCanceledNavigation:
+            '強制削除が中断されました。ページを離れたためです。',
+        exportRateLimited: '{{minutes}}分後に再度エクスポートできます。',
+        exportRateLimitedOne: '1分後に再度エクスポートできます。',
+        configuringTooltip:
+            '時間がかかる場合があります。OpenClaw、サーバーロケーション、Cloudflare DNSに依存します。',
+        paymentSuccess: 'Clawを作成・設定中です。',
+        dnsSetupBanner:
+            'ローカルDNSを設定してsubdomain.clawhost経由でClawにアクセス。',
+        dnsSetupButton: 'DNSを設定',
+        dnsSetupSuccess: 'DNSリゾルバーを設定しました。',
+        dnsSetupError: 'DNSリゾルバーの設定に失敗しました！',
+        userTab: 'ユーザー',
+        adminTab: '管理者',
+        adminTitle: '管理者',
+        adminDescription: 'プラットフォーム全体のClawを管理。',
+        adminNoClaws: 'プラットフォームにClawがまだありません。',
+        adminAccessDenied: 'このページにアクセスする権限がありません。',
+        owner: 'オーナー',
+        agentType: 'Agent',
+        status: {
+            running: '実行中',
+            stopped: '停止',
+            starting: '起動中',
+            stopping: '停止中',
+            creating: '作成中',
+            configuring: '設定中',
+            initializing: 'セットアップ中',
+            migrating: '移行中',
+            rebuilding: '再構築中',
+            restarting: '再起動中',
+            unreachable: '到達不能',
+            deleting: '削除中',
+            scheduledDeletion: '削除予定',
+            awaitingPayment: '支払い待ち',
+            unknown: '不明',
+            checking: '確認中'
+        },
+        tabNotAvailableForAgent: 'このエージェントタイプでは利用できません'
+    },
+    createClaw: {
+        title: 'OpenClawをデプロイ',
+        description: 'サーバーを設定してAIで構築を開始。',
+        clawName: '名前',
+        clawNamePlaceholder: '例: cozy-panda',
+        clawNameInvalidChars: '英字、数字、ダッシュのみ使用できます！',
+        autoGenerateNameHint: '空のままにすると自動生成されます。',
+        agentType: 'エージェントタイプ',
+        agentTypeOpenClaw: 'OpenClaw',
+        agentTypeHermes: 'Hermes',
+        agentTypeOpenClawDescription: '{{count}} スター',
+        agentTypeHermesDescription: '{{count}} スター',
+        location: 'ロケーション',
+        locationUnavailable: '利用不可',
+        locationUnavailableForPlan: '利用不可',
+        plan: 'サーバー',
+        planUnavailable: '利用不可',
+        planUnavailableForLocation: 'このロケーションでは利用できません',
+        advancedOptions: '詳細オプション',
+        rootPassword: 'Rootパスワード',
+        rootPasswordPlaceholder: 'パスワードを入力または生成',
+        gatewayTokenPlaceholder: '例: a1b2c3d4e5f6...',
+        autoGenerateGatewayTokenHint: '空のままにすると自動生成されます。',
+        autoGeneratePasswordHint: '任意。空のままにするとパスワードなし。',
+        regeneratePassword: 'パスワードを再生成',
+        gatewayToken: 'Gateway Token',
+        regenerateToken: 'トークンを再生成',
+        tokenCopied: 'トークンをコピーしました。',
+        sshKeyOptional: 'SSHキー',
+        noSshKeyPasswordOnly: 'SSHキーなし（パスワードのみ）',
+        noSshKeysConfigured: 'SSHキーが設定されていません',
+        addSshKeyForPasswordlessLogin:
+            'パスワードレスログイン用のSSHキーを追加',
+        additionalStorageOptional: '追加ストレージ',
+        volumeStorage: 'ボリュームストレージ',
+        vpsServer: 'VPSサーバー',
+        openClawPreinstalled: 'OpenClawプリインストール済み',
+        storageWithSize: 'ストレージ',
+        billingInterval: '請求',
+        monthly: '月額',
+        yearly: '年額',
+        yearlySaveBadge: '2ヶ月無料',
+        yearlySavings: '節約額',
+        totalMonthly: '月額合計',
+        totalYearly: '年額合計',
+        creating: '作成中...',
+        proceedToPayment: '${{amount}}を支払ってデプロイ',
+        agreementNotice: 'デプロイすることで、以下に同意したものとみなされます',
+        selectServerToContinue: '続行するにはサーバーを選択してください',
+        selectLocationToContinue: '続行するにはロケーションを選択してください',
+        clawCreated: 'Clawを作成しました。',
+        clawCreating: 'Clawを作成中です。少々お待ちください...',
+        assigning: '割り当て中...',
+        rootPasswordSaveThis: 'Rootパスワード（保存してください！）',
+        sshCommandUsingKey: 'SSHコマンド（鍵使用）',
+        sshCommandWithPassword: 'SSHコマンド（パスワード使用）',
+        passwordCopied: 'パスワードをコピーしました。',
+        planSpec: '{{cpu}} vCPU / {{memory}} GB RAM / {{disk}} GB SSD',
+        volumeUnit: 'GB',
+        volumeMin: '0 GB',
+        volumeMax: '500 GB'
+    },
+    sshKeys: {
+        title: 'SSHキー',
+        description:
+            'OpenClawインスタンスへのセキュアでパスワードレスなアクセスのためにSSHキーを管理。',
+        key: 'SSHキー',
+        keys: 'SSHキー',
+        keyCountDescription: '{{count}} {{label}}',
+        addSshKey: 'SSHキーを追加',
+        howSshKeysWork: 'SSHキーの接続方法は？',
+        step1: 'コンピューターでSSHキーペアを生成（または既存のものを使用）。',
+        step2: 'ここに公開鍵を追加。',
+        step3: '新しいインスタンス作成時にキーを選択。',
+        step4: '接続:',
+        step4Command: 'ssh root@your-server-ip',
+        step4Suffix: '— パスワード不要。',
+        noSshKeysYet: 'SSHキーなし',
+        noSshKeysDescription:
+            'アカウントにSSHキーが追加されていません。いつでも追加してデプロイ済みClawに接続できます。',
+        deleteConfirmation: 'このSSHキーを削除してもよろしいですか？',
+        deleteKey: 'SSHキーを削除',
+        deleteKeyConfirmation: '本当に削除しますか',
+        sshKeyAddedSuccessfully: 'SSHキーを追加しました。',
+        addSshKeyModalTitle: 'SSHキーを追加',
+        addSshKeyModalDescription: 'パスワードレス認証用のSSHキーを追加',
+        iHaveAnSshKey: '既存のキー',
+        generateNewKey: '新規作成',
+        name: '名前',
+        namePlaceholder: '例: my-macbook',
+        publicKey: '公開鍵',
+        publicKeyPlaceholder: 'ssh-rsa AAAA... または ssh-ed25519 AAAA...',
+        publicKeyHint: '公開鍵の場所:',
+        publicKeyPath1: '~/.ssh/id_ed25519.pub',
+        publicKeyPathOr: 'または',
+        publicKeyPath2: '~/.ssh/id_rsa.pub',
+        important: '重要:',
+        dontHaveSshKey: 'SSHキーがない場合は生成してください:',
+        sshKeygenCommand: 'ssh-keygen -t ed25519 -C "your-email@example.com"',
+        keyName: 'キー名',
+        keyNamePlaceholder: '生成したキー',
+        importantAfterGenerating:
+            '生成後、秘密鍵をダウンロードして保存する必要があります。紛失した場合は復元できません！',
+        generateKeyPair: 'キーペアを生成',
+        orGenerateLocallyRecommended: 'またはローカルで生成（推奨）',
+        runThisInYourTerminal: 'ターミナルで実行:',
+        thenSwitchToIHave:
+            '次に「既存のキー」に切り替えて公開鍵を貼り付けてください。',
+        savePrivateKeyNow:
+            '今すぐ秘密鍵を保存してください！このダイアログを閉じる前にダウンロードしてください。再度表示することはできません。',
+        privateKeyKeepSecret: '秘密鍵（秘密にしてください！）',
+        downloadPrivateKey: '秘密鍵をダウンロード',
+        publicKeyWillBeSaved: '公開鍵（保存されます）',
+        savePublicKey: '公開鍵を保存'
+    },
+    landing: {
+        title: 'OpenClawをデプロイ。ワンクリック。完了。',
+        description:
+            'ワンクリックで自分のVPSにOpenClawをデプロイ。フルルートアクセス、グローバルロケーション、透明な料金のセルフホスト型クラウドホスティング。',
+        badge: 'OpenClawをシンプルに',
+        tutorialBadge: '見て。デプロイ。',
+        tutorialVideoThumbnail: 'ClawHostチュートリアル動画サムネイル',
+        clawhostGoLogoAlt: 'ClawHost Go',
+        trustMrrBadgeAlt: 'TrustMRR verified revenue badge',
+        macosPreviewTime: '22:12',
+        heroTitle1: 'OpenClawをデプロイ。',
+        heroTitle2: 'ワンクリック。完了。',
+        heroDescription:
+            'ワンクリックでクラウドまたはローカルにOpenClawとHermesエージェントをデプロイ — ClawHostでAIエージェントをより速く構築、接続、スケール。',
+        selfHost: 'オープンソース',
+        startingPrice: '開始価格',
+        locations: 'ロケーション',
+        servers: 'サーバー',
+        zeroCount: 'ゼロ',
+        zeroConfig: 'ゼロ設定',
+        features: '機能',
+        whyClawHost: 'オールインワン機能',
+        featuresDescription: '試す価値がある理由。機能は嘘をつきません。',
+        zeroConfigDescription:
+            'サーバーとOpenClawのセットアップに何時間もかける必要はありません。プリインストールされ、数分で準備完了。',
+        ownedData: '100%自分のデータ',
+        ownedDataDescription:
+            '自分のサーバー、自分のデータ。共有インフラなし、ログなし、第三者なし。24/7オンライン。',
+        fullSpeed: 'フルスピード',
+        fullSpeedDescription:
+            '専用VPSリソースで、スロットリングなし、フル帯域幅、超高速インターネット。',
+        globalLocations: 'グローバルロケーション',
+        globalLocationsDescription:
+            'OpenClawとHermesを複数のグローバルリージョンに展開し、最も近いロケーションを選択。',
+        fullSshAccess: 'ダイレクトSSHアクセス',
+        fullSshAccessDescription:
+            'プラットフォームから直接サーバーターミナルにアクセス。外部SSHクライアント不要。',
+        secure: 'セキュア',
+        secureDescription:
+            'SSL脆弱性、マルウェア、一般的なセキュリティ脅威からデフォルトで保護。',
+        payAsYouGo: 'シンプルな料金',
+        payAsYouGoDescription:
+            '必要なものに基づいた料金。低品質サーバーに高額な請求を強制されません。いつでもキャンセル可能。',
+        bringYourCredits: '自分のクレジットを使用',
+        bringYourCreditsDescription:
+            'ご自身のAnthropic APIキーまたはClaudeサブスクリプションをご利用ください。Anthropicに直接お支払い — マークアップなし。',
+        customSubdomains: 'オンラインアクセス',
+        customSubdomainsDescription:
+            'ローカルネットワークは忘れましょう。サブドメインでどこからでもOpenClawにセキュアにアクセス。',
+        autoUpdates: 'バージョン管理',
+        autoUpdatesDescription:
+            'ワンクリックで任意のOpenClawまたはHermesバージョンに切り替え。常に最新の状態を維持するか、必要に応じてロールバック。',
+        openclawControl: 'サーバー監視',
+        openclawControlDescription:
+            'OpenClawとHermesサーバーをリアルタイムのメトリクス、ログ、診断で監視。',
+        clawHostControl: '完全なサーバーアクセス',
+        clawHostControlDescription:
+            'ブラウザターミナル、ファイルエクスプローラー、ログ、診断、バージョン管理 — すべてダッシュボードから。',
+        multipleClaws: '複数のエージェント',
+        multipleClawsDescription:
+            '単一のダッシュボードから複数のOpenClawおよびHermesエージェントをデプロイ・管理。成長に合わせてスケール。',
+        pricing: '料金',
+        simpleTransparentPricing: 'シンプルで透明な料金',
+        pricingDescription:
+            'ニーズに合ったプランを選択。隠れた料金はありません。',
+        planColumn: 'サーバー',
+        vCpuColumn: 'vCPU',
+        ramColumn: 'RAM',
+        storageColumn: 'ストレージ',
+        monthlyColumn: '価格',
+        tierShared: '共有vCPU',
+        tierDedicated: '専用vCPU',
+        tierArm: 'Ampere (ARM)',
+        tierRegular: '通常パフォーマンス',
+        tierHighPerformance: 'ハイパフォーマンス',
+        tierHighFrequency: 'ハイフリークエンシー',
+        recommended: 'おすすめ',
+        perMonth: '/月',
+        perYear: '/年',
+        pricePerMonth: '${{price}}/mo',
+        pricePerYear: '${{price}}/yr',
+        volumePricePerMonth: '+${{price}}/mo',
+        startingPriceValue: '${{price}}/mo',
+        deploy: 'デプロイ',
+        select: '選択',
+        selectPlanLabel: '{{plan}}プランを選択',
+        deployPlanLabel: '{{plan}}プランをデプロイ',
+        openClawPreinstalled: 'OpenClawプリインストール済み',
+        unlimitedBandwidth: '無制限帯域幅',
+        rootSshAccess: 'フルRoot SSHアクセス',
+        onlineAllDay: '24/7オンライン',
+        showAllPlans: 'すべてのプランを表示',
+        simplePricing: '簡易表示',
+        planStarter: 'Starter',
+        planStarterDesc: '個人プロジェクトと実験向け',
+        planGrowth: 'Growth',
+        planGrowthDesc: '本番環境のワークロード向け',
+        planPro: 'Pro',
+        planProDesc: '成長中のビジネス向け',
+        planBusiness: 'Business',
+        planBusinessDesc: '大規模オペレーション向け',
+        featureCpu: '{{count}} vCPU',
+        featureRam: '{{count}} GB RAM',
+        featureDisk: '{{count}} GB SSD',
+        choosePlan: 'プランを選ぶ',
+        mostPopular: '一番人気',
+        featurePreinstalled: 'エージェント プリインストール済み',
+        featureBandwidth: '無制限帯域幅',
+        featureSsh: 'Root SSHアクセス',
+        featureUptime: '24時間365日稼働',
+        featureDedicatedCpu: '専用CPU',
+        featureEmailSupport: 'メールサポート',
+        fastInternet: '高速インターネット',
+        emailSupport: 'メールサポート',
+        faqTitle: '質問',
+        frequentlyAskedQuestions: 'よくある質問',
+        faqDescription: 'よくある質問のすべてに回答.',
+        faq1Question: 'ClawHostとは？',
+        faq1Answer:
+            'ClawHostは、OpenClawとHermesを誰でも利用できるようにするために構築されたプラットフォームです。技術者でないユーザーも開発者も、インフラ管理なしでこれらを実行できます。サーバー、稼働時間、セキュリティ、メンテナンスは私たちが担当 — あなたはエージェントを使うだけです。',
+        faq2Question: 'OpenClawとは？',
+        faq2Answer:
+            'OpenClawは、AIツールやサービスのためのセルフホスト型セキュアアクセスレイヤーです。セキュリティとパフォーマンスのために事前設定されているので、デプロイして即座に接続できます.',
+        faqHermesQuestion: 'Hermesとは何ですか？',
+        faqHermesAnswer:
+            'Hermesは、ウェブブラウジング、カレンダー管理、マルチモデル推論、ブラウザ自動化を備えた自律型AIエージェントです。ClawHostの全サーバーにOpenClawと共にプリインストールされています。',
+        faq3Question: '他のAIツールやホスティングプラットフォームとの違いは？',
+        faq3Answer:
+            'ホスト型AIツールとは異なり、ClawHostではOpenClawとHermesがインストールされた実際のサーバーが手に入ります。インフラを所有し、すべてを制御でき、共有プラットフォームやモデルに制限されません。',
+        faq4Question: '技術的な知識は必要ですか？',
+        faq4Answer:
+            'いいえ。インフラ、セットアップ、メンテナンスはすべて私たちが担当します。OpenClawはUIから構成・管理でき、Hermesはシンプルなターミナルコマンドで動作します — サーバーやインフラに触れる必要はありません。',
+        faq5Question: 'どのロケーションが利用可能ですか？',
+        faq5Answer:
+            '米国、ヨーロッパ、アジアを含む世界中の複数のサーバーロケーションを提供しています。必要に応じてOpenClawまたはHermesを異なるリージョンの複数サーバーにデプロイできます。',
+        faq6Question: '料金はいくらですか？',
+        faq6Answer:
+            '価格は選択するサーバーによって異なります. エントリーレベルからハイパフォーマンスまで複数のサーバーオプションがあり、ニーズと予算に合ったものを選択できます.',
+        faq7Question: 'リンクから直接エージェントにアクセスできますか？',
+        faq7Answer:
+            'OpenClawはサブドメインURLとフル機能のWeb UIでアクセス可能です。HermesはSSH経由のターミナルコマンドで動作するため、リンクはありませんが、サーバーのターミナルから完全に制御できます。',
+        comparison: '比較',
+        comparisonTitle: '私たちの違い',
+        comparisonDescription:
+            '比較可能なプラットフォームは1つだけで、私たちのアプローチは制限ではなく、実際のサーバーと完全な所有権に焦点を当てています.',
+        others: 'その他',
+        comparisonOpenClawUs: 'OpenClawへのフルアクセス',
+        comparisonOpenClawOthers: 'チャットのみ、管理なし',
+        comparisonPricingUs: '透明な料金、明確なスペック',
+        comparisonPricingOthers: '不明なスペック、不明確な料金',
+        comparisonOwnershipUs: 'サーバーを完全に所有',
+        comparisonOwnershipOthers: '何も所有しない',
+        comparisonSubdomainUs: 'サブドメイン経由でアクセス',
+        comparisonSubdomainOthers:
+            'サードパーティプラットフォーム経由のみアクセス',
+        comparisonInfraUs: 'オンデマンドインフラ',
+        comparisonInfraOthers: '限定されたサーバー',
+        comparisonDataUs: 'データを所有',
+        comparisonDataOthers: 'データを所有しない',
+        comparisonMultipleUs: '複数のOpenClawとHermesエージェント',
+        comparisonMultipleOthers: '単一のOpenClawのみ',
+        comparisonOpenSourceUs: '完全オープンソース',
+        comparisonOpenSourceOthers: 'クローズドソース',
+        comparisonExportUs: 'OpenClawとHermesをどこへでもエクスポート',
+        comparisonExportOthers: 'ベンダーロックイン',
+        comparisonProvidersUs: '複数のサーバープロバイダー',
+        comparisonProvidersOthers: '単一プロバイダーのみ',
+        comparisonVersionUs: 'ワンクリックバージョン切替',
+        comparisonVersionOthers: '手動アップデートのみ',
+        comparisonTerminalUs: '内蔵Webターミナル',
+        comparisonTerminalOthers: 'SSHクライアントが必要',
+        seeFullComparison: '完全比較を見る',
+        comparisonCtaText: 'SimpleAgent、MyAgent.aiなどと機能ごとに比較.',
+        selfHostInstead: 'セルフホストする'
+    },
+    blog: {
+        readingTime: '{{minutes}}分で読める',
+        ctaTitle: 'OpenClawとHermesをワンクリックでデプロイ',
+        ctaDescription:
+            'OpenClawとHermesがプリインストールされた専用サーバーを取得。フルルートアクセス、グローバルロケーション、数分で準備完了。常にあなたのもの。$25から。',
+        ctaDeploy: 'エージェントをデプロイ',
+        ctaGitHub: 'GitHubで見る'
+    },
+    changelog: {
+        title: '変更履歴',
+        description: 'ClawHostのアップデート、新機能、改善を追跡。',
+        subtitle: 'ClawHostのすべてのアップデート、新機能、改善。',
+        release17Date: 'May 1, 2026',
+        release17Title: 'Hermes Agents One-Click Deployment',
+        release17Description:
+            'Deploy Hermes agents with a single click, plus a wave of dashboard improvements and bug fixes.',
+        release17Feature1:
+            'One-click deployment for Hermes agents directly from the dashboard',
+        release17Feature2:
+            'Dashboard improvements for smoother navigation and clearer instance status, plus numerous bug fixes and stability improvements across the platform',
+        release16Date: 'April 12, 2026',
+        release16Title: 'New Dashboard Experience & Advanced Tabs',
+        release16Description:
+            'A completely redesigned dashboard with new tabs, simplified navigation, and a cleaner experience for managing your agents.',
+        release16Feature1:
+            'Overview tab to view key information about your OpenClaw instance at a glance',
+        release16Feature2:
+            'Preview tab to embed and interact with your OpenClaw instance directly in the dashboard',
+        release16Feature3:
+            'Monitor tab with live server metrics including CPU, memory, disk, and network usage',
+        release16Feature4:
+            'Storage tab to view attached volumes configured during instance creation',
+        release16Feature5:
+            'Security tab to manage gateway token, root password, SSH keys, and host key fingerprint',
+        release16Feature6:
+            'Billing tab with per-instance subscription details, billing history, and manage billing access',
+        release16Feature7:
+            'Server tab with IP address, location, server type, SSH command, and reinstall option',
+        release16Feature8:
+            'Server customizations with emoji icons and background colors for easy identification',
+        release16Feature9:
+            'New simplified UI with streamlined navigation, search agents, and a cleaner experience',
+        release15Date: '2026年4月11日',
+        release15Title: 'シンプル化とカスタムサブドメイン',
+        release15Description:
+            '管理機能をOpenClawに移行してプラットフォームをシンプル化し、プレイグラウンドビューを削除、変更可能なカスタムサブドメインを導入しました。',
+        release15Feature1:
+            '管理機能をシンプル化しOpenClawに移行、ClawHostチャット、エージェント、チャンネル、変数、スキルは廃止',
+        release15Feature2:
+            'Enhanced file explorer with full editing support, 100+ language syntax highlighting, and export as .zip',
+        release15Feature3:
+            'Removed playground view for a cleaner, more focused dashboard experience',
+        release15Feature4:
+            'Changeable custom subdomains, update your claw subdomain to your loved one',
+        release14Date: '2026年4月1日',
+        release14Title: 'Hetzner移行、アフィリエイトシステム & 新しい言語',
+        release14Description:
+            '最高の価格とパフォーマンスのためにすべてのインフラをHetznerに一元化、15%コミッションのアフィリエイトシステムを開始、10の新しい言語を追加、安定バージョンサポートのための内部ツールを構築。',
+        release14Feature1:
+            'DigitalOceanとVultrを削除 — すべてのインフラが現在Hetzner上で独占的に稼働、無限の容量でプロバイダー側の制限なし',
+        release14Feature2:
+            'ユーザーが紹介した注文ごとに15%のコミッションを獲得できるアフィリエイトシステム',
+        release14Feature3:
+            '10の新言語を追加：中国語、ヒンディー語、アラビア語、ロシア語、日本語、トルコ語、イタリア語、ポーランド語、オランダ語、ポルトガル語',
+        release14Feature4:
+            '現在のOpenClawバージョンに安定した機能サポートを提供する内部ツール、古いバージョンはサポート対象外',
+        release12Date: '2026年3月14日',
+        release12Title: '年間プラン、ボイスモード & その他',
+        release12Description:
+            '2ヶ月無料の年間サブスクリプション、ボイスモード、インスタンス再インストール、ClawHost Goの初期ランディングページ。',
+        release12Feature1:
+            'ClawHost Goのランディングページ、ClawHostでローカルホスティング',
+        release12Feature2: '年間契約で2ヶ月無料の年間サブスクリプション対応',
+        release12Feature3:
+            'ClawHostでホストされたOpenClawエージェントとのボイスモード',
+        release12Feature4:
+            'インスタンスにOpenClawを再インストールして新しく開始、1日1回利用可能',
+        release11Date: '2026年2月28日',
+        release11Title:
+            '音声合成、ターミナル、チャットタブ & ファイルエクスプローラー',
+        release11Description:
+            '音声合成でエージェントの応答を聞き、ターミナル経由でVPSと直接やり取りし、サイドバービュータブでチャットを素早くナビゲートし、改善されたファイルエクスプローラーでファイルを探索。',
+        release11Feature1: 'Playgroundでのエージェントメッセージの音声合成',
+        release11Feature2:
+            'ダッシュボードから直接VPSインスタンスとやり取りするターミナル',
+        release11Feature3:
+            '簡単なアクセスとナビゲーションのためのチャットサイドバービュータブ',
+        release11Feature4: 'ファイル検索バー付きファイルエクスプローラーの改善',
+        release11Feature5:
+            'メッセージのタイムスタンプがリアルタイムを反映しない問題を修正',
+        release10Date: '2026年2月23日',
+        release10Title: '機能リクエスト、ファイルエクスプローラー & バグ修正',
+        release10Description:
+            'コミュニティ主導の機能リクエスト、拡張ファイル編集サポート、各種バグ修正。',
+        release10Feature1:
+            'OpenClawエージェントによる自動管理・公開の機能リクエスト',
+        release10Feature3:
+            'モデルプロバイダーの切り替えが反映されず初期モデルを使い続ける問題を修正',
+        release10Feature4: 'プラットフォーム全体の改善とバグ修正',
+        release10Feature5:
+            'TypeScript、Markdown、プレーンテキストファイルがファイルエクスプローラーで編集可能に',
+        release9Date: '2026年2月21日',
+        release9Title: '比較、Playgroundリファクタリング & その他',
+        release9Description:
+            '競合他社の比較ページ、Playground機能の再構築、多言語対応、全体的なパフォーマンス改善。',
+        release9Feature1: 'ダーク・ライトテーマ対応',
+        release9Feature2: '英語、フランス語、スペイン語、ドイツ語の多言語対応',
+        release9Feature3: '競合他社との詳細な比較ページ',
+        release9Feature4:
+            'OpenClawバージョン、ワンクリックでアップグレードまたは任意のバージョンを即座にインストール',
+        release9Feature5: 'Playground機能構造のリファクタリングと簡素化',
+        release9Feature6: 'パフォーマンス、安定性、レスポンシブの向上',
+        release8Date: '2026年2月18日',
+        release8Title: 'ライトテーマ、パフォーマンス & 安定性',
+        release8Description:
+            'ライトテーマ対応、パフォーマンスと体験の改善、安定性とレスポンシブの向上。',
+        release8Feature1: 'ライト、ダーク、システムテーマモード',
+        release8Feature2: 'パフォーマンスと体験の改善',
+        release8Feature3: '安定性とレスポンシブの向上',
+        release7Date: '2026年2月16日',
+        release7Title: 'チャットリファクタリング & 音声入力',
+        release7Description:
+            '音声インタラクションとエージェント向けファイル添付を含むチャットとPlaygroundの大幅な改善。',
+        release7Feature1:
+            'よりスムーズでレスポンシブな体験のためのチャットとPlaygroundのリファクタリング',
+        release7Feature2:
+            'チャットでの音声インタラクション、ブラウザで直接音声を録音・文字起こし',
+        release7Feature4:
+            'エージェント向けの添付ファイルの表示と使用、チャットで画像やドキュメントを送信',
+        release6Date: '2026年2月16日',
+        release6Title: 'エージェントチャット',
+        release6Description:
+            'OpenClawのエージェントの完全なコントロール。ダッシュボードから直接すべてを管理・チャット。',
+        release6Feature3:
+            'Playgroundからエージェントとチャット、リアルタイムで任意のエージェントとやり取り',
+        release6Feature4:
+            'GoogleまたはGitHubでサインイン、メールコード不要の高速・セキュア認証',
+        release1Date: '2026年2月8日',
+        release1Title: '初期リリース',
+        release1Description:
+            'ClawHostの最初の公式リリース。ワンクリックで自分のVPSにOpenClawをデプロイ。',
+        release1Feature1: 'ワンクリックOpenClawデプロイ',
+        release1Feature2:
+            'Clawの管理ダッシュボード、インスタンスの起動、停止、再起動、削除',
+        release1Feature3:
+            '専用vCPU、RAM、ストレージオプションを備えた18のサーバープラン',
+        release1Feature4:
+            '米国、ヨーロッパ、アジアにわたる6つのサーバーロケーション',
+        release1Feature5: 'パスワードレスサーバーアクセスのためのSSHキー管理',
+        release1Feature6: '最大10 TBの追加ボリュームストレージサポート',
+        release1Feature7: 'マジックリンク認証、パスワード不要',
+        release1Feature8:
+            'セキュアなサブドメイン経由のOpenClawオンラインアクセス',
+        release1Feature9: 'サーバーごとの透明な料金による決済統合',
+        release1Feature10: '請求履歴と請求書管理',
+        release1Feature11:
+            'OpenClawプリインストール・設定済みの自動プロビジョニング',
+        release2Date: '2026年2月8日',
+        release2Title: 'Changelog & その他',
+        release2Description: 'ClawHostに関する最新情報を確認する新しい方法.',
+        release2Feature1:
+            'プラットフォームのすべてのアップデートとリリースを追跡する変更履歴ページ',
+        release3Date: '2026年2月10日',
+        release3Title: 'サーバーインサイト',
+        release3Description:
+            'ダッシュボードから直接、サーバーのより深い可視性とコントロール。',
+        release3Feature1:
+            'ダッシュボードに直接ストリーミングされるリアルタイムサーバーログ',
+        release3Feature2: 'サービス問題のワンクリック自動修復付きサーバー診断',
+        release3Feature3:
+            'サーバー設定ファイル用の内蔵ファイルエクスプローラーとJSONエディター',
+        release4Date: '2026年2月14日',
+        release4Title: 'エージェント & データエクスポート',
+        release4Description:
+            'エージェントPlayground、マルチエージェント管理、OpenClawインスタンスのポータブルデータエクスポート。',
+        release4Feature1:
+            'ワンクリックエージェントPlaygroundと概要、複数エージェントの追加・管理',
+        release4Feature2: 'OpenClawをポータブルzipアーカイブとしてエクスポート',
+        release4Feature3:
+            'Clawとエージェントのグラフベース視覚化を備えたインタラクティブPlayground',
+        release4Feature4:
+            '統一ダッシュボードレイアウトに伴いグリッド・リスト表示の切り替えを削除'
+    },
+    clawDetail: {
+        noAgentsYet: 'エージェントなし',
+        noAgentsDescription: '最初のエージェントをデプロイしてやり取りを開始。',
+        collapseSidebar: 'サイドバーを折りたたむ',
+        expandSidebar: 'サイドバーを展開',
+        selectClaw: 'エージェントを選択',
+        selectClawDescription:
+            'サイドバーからエージェントを選択して詳細を表示します。',
+        closeDetails: '閉じる',
+        tabOverview: '概要',
+        overviewTitle: 'ゲートウェイ概要',
+        overviewGatewayStatus: 'ゲートウェイステータス',
+        overviewOnline: 'オンライン',
+        overviewOffline: 'オフライン',
+        overviewVersion: 'バージョン',
+        overviewUptime: '稼働時間',
+        overviewSessions: 'セッション',
+        overviewSessionsCount: '{{count}} アクティブ',
+        overviewNoSessions: 'アクティブなセッションはありません',
+        overviewSessionName: 'セッション',
+        overviewSessionModel: 'モデル',
+        overviewSessionMessages: 'メッセージ',
+        overviewSessionLastActive: '最終アクティブ',
+        overviewModels: 'モデル',
+        overviewError: '概要の読み込みに失敗しました!',
+        overviewErrorDescription:
+            'OpenClawゲートウェイに接続できませんでした。インスタンスが実行中であることを確認してください。',
+        overviewUnsupportedTitle: '概要はサポートされていません',
+        overviewUnsupportedDescription:
+            'お使いのOpenClawバージョンは概要機能をサポートしていません。最新バージョンにアップデートしてください。',
+        overviewHermesTitle: 'Hermesはターミナルで動作します',
+        overviewHermesDescription:
+            'Hermesは TUI エージェントです。ターミナルタブを開いて `hermes` を実行してセッションを開始してください。ファイルおよびバージョンタブで設定の編集とアップグレードができます。',
+        overviewHermesOpenTerminal: 'ターミナルを開く',
+        viewDocs: 'ドキュメント',
+        overviewUptimeDays: '{{days}}d {{hours}}h {{minutes}}m',
+        overviewUptimeHours: '{{hours}}h {{minutes}}m',
+        overviewUptimeMinutes: '{{minutes}}m',
+        overviewService: 'サービス',
+        overviewServiceActive: 'アクティブ',
+        overviewServiceInactive: '非アクティブ',
+        overviewPort: 'Port 18789',
+        overviewPortOpen: 'リスニング中',
+        overviewPortClosed: '閉鎖',
+        overviewReady: '準備完了',
+        overviewNotReady: '未準備',
+        overviewConfiguration: '設定',
+        overviewBrowser: 'Browser',
+        overviewCommands: 'シェルコマンド',
+        overviewTools: 'ツール',
+        overviewSubdomain: 'サブドメイン',
+        overviewInstanceStatus: 'インスタンスステータス',
+        overviewModel: 'Model',
+        overviewAgents: 'エージェント',
+        overviewMemoryStatus: 'メモリ',
+        overviewHeartbeat: 'Heartbeat',
+        overviewEvents: 'イベント',
+        overviewProbes: 'Probes',
+        overviewPlugins: 'Plugins',
+        tabPreview: 'プレビュー',
+        previewNotEnabled:
+            'このインスタンスではプレビューが有効になっていません。',
+        previewNotEnabledDescription:
+            'プレビューを有効にして、エージェントをダッシュボードに直接埋め込みます。',
+        previewEnable: 'プレビューを有効にする',
+        previewEnabling: '有効化中...',
+        previewEnabled: 'プレビューが有効になりました。',
+        previewEnableFailed: 'プレビューの有効化に失敗しました！',
+        previewEnableCanceledNavigation:
+            'プレビューの有効化が中断されました。ページを離れたためです。',
+        previewError: 'プレビューの読み込みに失敗しました。',
+        previewErrorDescription:
+            'エージェントがオフラインまたは到達不能の可能性があります。',
+        previewRetry: '再試行',
+        tabInfo: '情報',
+        tabLogs: 'ログ',
+        tabTerminal: 'ターミナル',
+        terminalConnecting: 'ターミナルに接続中...',
+        terminalDisconnected: 'ターミナルが切断されました。',
+        terminalError: 'ターミナルへの接続に失敗しました！',
+        terminalReconnect: '再接続',
+        tabDisabledConfiguring:
+            'インスタンスの設定が完了すると利用可能になります。',
+        tabDisabledAwaitingPayment: '支払いが処理されると利用可能になります。',
+        creatingTitle: 'エージェントをセットアップ中',
+        creatingDescription:
+            '通常1〜2分かかります。 このページを閉じて、後で戻ってきても問題ありません。',
+        creatingDescriptionLocal:
+            '通常はすぐに完了します。完了するまでアプリを開いたままにしてください。',
+        configuringTitle: 'OpenClawをインストール中',
+        configuringTitleHermes: 'Hermesをインストール中',
+        loadingTipHermes1:
+            'Hermes は TUI エージェントです — 起動後はターミナルタブを開いてチャットしてください。',
+        loadingTipHermes2:
+            'モデルプロバイダー（OpenRouter、Anthropic など）はファイルタブから ~/.hermes/.env で設定します。',
+        loadingTipHermes3:
+            'ターミナルから `hermes gateway install` で Telegram、Discord、Slack を接続できます。',
+        configuringDescription:
+            '通常1〜2分かかります。 このページを閉じて、後で戻ってきても問題ありません。',
+        configuringDescriptionLocal:
+            'エージェントランタイムをローカルにインストールしています。完了するまでアプリを開いたままにしてください。',
+        awaitingPaymentTitle: '支払い待ち',
+        awaitingPaymentDescription:
+            'エージェントのプロビジョニングを開始するには、支払いを完了してください。この予約は1時間で期限切れになります。',
+        awaitingPaymentAction: '支払いを完了',
+        loadingTip1:
+            '1つのOpenClawで複数のエージェントを実行できることをご存知ですか？',
+        loadingTip2: 'OpenClawがオープンソースであることをご存知ですか？',
+        loadingTip3:
+            'ClawHostは、ワンクリックOpenClawホスティングを可能にした史上初のプロジェクトです。',
+        loadingTip4:
+            'SSHまたは内蔵ターミナルからエージェントにアクセスできます。',
+        loadingTip5:
+            'エージェントには自動的に独自のサブドメインが割り当てられます。',
+        loadingTip6:
+            '設定からいつでもエージェントのアイコンと名前をカスタマイズできます。',
+        loadingTip7:
+            'エージェントへのすべてのトラフィックはTLSで暗号化されています。',
+        loadingTip8:
+            'モニタータブでCPU、メモリ、ディスク使用量を監視できます。',
+        loadingTip9: 'お困りですか？Discordのコミュニティにご参加ください。',
+        loadingTip10:
+            'エージェントの設定全体をバックアップとしてエクスポートできます。',
+        loadingTip11:
+            'SSHキーは再インストールなしで実行中のインスタンスに適用できます。',
+        loadingTip12:
+            'セキュリティタブからrootパスワードとゲートウェイトークンをローテーションできます。',
+        loadingTip13:
+            'ClawHostはヨーロッパとアメリカの複数のリージョンでサーバーをサポートしています。',
+        tabSettings: '設定',
+        featureVersionUnsupported:
+            '{{feature}} は {{version}} でサポートされていません',
+        featureVersionUnsupportedDescription:
+            'このバージョンでは UI を通じた {{feature}} の管理をサポートしていません。SSH、ターミナル、または OpenClaw コントロールパネルから管理できます。',
+        featureVersionUnsupportedButton: 'バージョンへ移動',
+        featureVersionUnsupportedSupported: 'サポートされているバージョン:',
+        featureVersionUnsupportedNewer: 'より新しいバージョン',
+        tabVersions: 'バージョン',
+        tabFiles: 'ファイルエクスプローラー',
+        tabMonitor: 'モニター',
+        tabVolumes: 'ストレージ',
+        tabSecurity: 'セキュリティ',
+        securitySSHKey: 'SSH鍵',
+        securitySSHKeyHint:
+            '実行中のインスタンスに適用され、再インストール時にも使用されます.',
+        securityPassword: 'Rootパスワード',
+        securityGatewayToken: 'ゲートウェイトークン',
+        securityHostKey: 'ホスト鍵フィンガープリント',
+        securityRotatePassword: 'パスワードをローテーション',
+        securityRotateToken: 'トークンをローテーション',
+        securityRandomize: 'ランダム生成',
+        securitySavePassword: 'パスワードを保存',
+        securitySaveToken: 'トークンを保存',
+        volumesTitle: 'ボリューム',
+        volumesCount: '{{count}} ボリューム',
+        volumesEmpty: 'ボリュームが接続されていません。',
+        volumesEmptyDescription:
+            'このインスタンスには永続ストレージボリュームがありません。',
+        volumesReadOnly:
+            'ストレージはインスタンス作成時にのみ追加できます。ストレージを追加するには、希望のボリュームサイズで新しいインスタンスをデプロイするか、',
+        volumesContactSupport: 'サポートチーム',
+        metricsTitle: 'サーバーメトリクス',
+        metricsLive: 'ライブ',
+        metricsCpu: 'CPU使用率',
+        metricsMemory: 'メモリ使用率',
+        metricsDisk: 'ディスク使用率',
+        metricsNetwork: 'ネットワーク',
+        metricsLoadAvg: '負荷平均',
+        metricsProcesses: 'トッププロセス',
+        metricsUptime: '稼働時間',
+        metricsUsed: '使用済み',
+        metricsAvailable: '利用可能',
+        metricsTotal: '合計',
+        metricsReceived: '受信',
+        metricsSent: '送信',
+        metricsLoad1: '1分',
+        metricsLoad5: '5分',
+        metricsLoad15: '15分',
+        metricsProcessPid: 'PID',
+        metricsProcessUser: 'ユーザー',
+        metricsProcessCpu: 'CPU %',
+        metricsProcessMem: 'MEM %',
+        metricsProcessCommand: 'コマンド',
+        metricsError: 'メトリクスの読み込みに失敗しました!',
+        metricsErrorDescription:
+            'メトリクスを取得するためにサーバーに接続できませんでした。インスタンスが実行中であることを確認してください。',
+        metricsAutoRefresh: '{{seconds}}秒ごとに自動更新',
+        tabBilling: 'Billing',
+        billingEmpty: 'No billing history for this instance.',
+        tabServer: 'サーバー',
+        serverIpAddress: 'IPアドレス',
+        reinstallDescription:
+            'このサーバーに{{agentName}}を再インストールします。インストールがリセットされますが、データは保持されます。必要な場合にのみ実行してください。',
+        versionsSearch: 'バージョンを検索...',
+        versionsSearchCount: '{{count}}個のバージョンを検索...',
+        versionsEmpty: 'バージョンが見つかりません',
+        versionsEmptyDescription: '検索に一致するバージョンがありません。',
+        versionsErrorDescription:
+            'バージョンの読み込みに失敗しました。接続を確認して再試行してください！',
+        versionsChangelog: 'npmで変更履歴を見る',
+        versionCurrent: '現在',
+        versionLatest: '最新',
+        updateAvailable: 'A newer version of OpenClaw is available',
+        updateAvailableDescription:
+            'A new version of OpenClaw ({{version}}) is available for your instance.',
+        updateAvailableDescriptionHermes:
+            'A new version of Hermes ({{version}}) is available for your instance.',
+        goToVersions: 'Go to Versions',
+        versionInstall: 'インストール',
+        versionInstalling: 'インストール中...',
+        versionInstallSuccess: 'バージョン{{version}}をインストールしました。',
+        versionInstallFailed: 'バージョンのインストールに失敗しました！',
+        installVersionCanceledNavigation:
+            'バージョンのインストールが中断されました。ページを離れたためです。',
+        versionDownloads: '{{count}}ダウンロード',
+        versionChangelog: '変更履歴',
+        versionOutdated: '古いバージョン',
+        versionSupported: 'サポート対象',
+        versionSupportedTooltip:
+            'このバージョンではUIからOpenClawを操作できます',
+        versionInstallConfirmTitle: 'バージョン{{version}}をインストール',
+        versionInstallConfirmDescription:
+            'バージョンの切り替えは予期しない動作を引き起こしたり、追加の手動設定が必要になる場合があります。特にまだ完全に検証されていない新しいバージョンの場合。続行してもよろしいですか？',
+        settingsIcon: 'アイコン',
+        settingsIconDescription:
+            'クリックしてエージェントアイコンを変更します。',
+        settingsIconRandomize: 'ランダム',
+        settingsIconRemove: 'アイコンを削除',
+        settingsBackground: '背景',
+        settingsBackgroundReset: 'リセット',
+        settingsName: '名前',
+        settingsNamePlaceholder: 'Claw名を入力',
+        settingsNameDescription: '英字、数字、ダッシュのみ。',
+        subdomain: 'サブドメイン',
+        subdomainPlaceholder: 'サブドメインを入力',
+        subdomainDescription: '小文字と数字、{{min}}-{{max}}文字。',
+        subdomainInvalid:
+            '{{min}}-{{max}}文字の小文字と数字のみ使用してください。',
+        subdomainUpdated: 'サブドメインを更新しました。',
+        subdomainUpdateFailed: 'サブドメインの更新に失敗しました！',
+        subdomainInUse: 'このサブドメインは別のClawで使用されています！',
+        settingsDetails: '詳細',
+        settingsDangerZone: '危険ゾーン',
+        settingsDangerZoneDescription:
+            'インスタンスは現在の請求期間の終了時に削除されます。',
+        settingsDangerZoneDescriptionLocal:
+            'エージェントとそのすべてのファイルが完全に削除されます。',
+        settingsScheduledDeletionDescription:
+            '{{date}}に削除予定です。キャンセルするとインスタンスは稼働し続け、サブスクリプションもアクティブなままになります。',
+        settingsSave: '保存',
+        settingsSaving: '保存中...',
+        settingsUpdated: '設定が更新されました。',
+        settingsUpdateFailed: '設定の更新に失敗しました！',
+        saveCanceledNavigation:
+            '保存が中断されました。ページを離れたためです。',
+        savePasswordCanceledNavigation:
+            'パスワードの保存が中断されました。ページを離れたためです。',
+        saveGatewayTokenCanceledNavigation:
+            'ゲートウェイトークンの保存が中断されました。ページを離れたためです。',
+        saveSSHKeyCanceledNavigation:
+            'SSHキーの保存が中断されました。ページを離れたためです。',
+        mockLogStarting: 'OpenClawエージェントを起動中...',
+        mockLogLoadingModel: 'モデルを読み込み中: claude-sonnet-4-5',
+        mockLogAgentReady: 'エージェントがポート3000で準備完了',
+        mockLogConnected: 'ゲートウェイに接続済み',
+        mockLogsContent:
+            '2026-02-14T10:23:41Z {{starting}}\n2026-02-14T10:23:42Z {{loadingModel}}\n2026-02-14T10:23:43Z {{agentReady}}\n2026-02-14T10:23:44Z {{connected}}\n2026-02-14T10:24:01Z {{requestReceived}}\n2026-02-14T10:24:03Z {{responseSent1}}\n2026-02-14T10:25:12Z {{requestReceived}}\n2026-02-14T10:25:14Z {{responseSent2}}\n2026-02-14T10:26:30Z {{healthCheck}}',
+        mockLogRequestReceived: 'リクエスト受信: /chat',
+        mockLogResponseSent1: 'レスポンス送信 (1.2秒)',
+        mockLogResponseSent2: 'レスポンス送信 (1.8秒)',
+        mockLogHealthCheck: 'ヘルスチェック通過'
+    },
+    privacy: {
+        title: 'プライバシーポリシー',
+        description:
+            'ClawHostがどのように個人データを収集、使用、保護するかをご確認ください。',
+        lastUpdated: '最終更新: 2026年3月14日',
+        introTitle: '1. はじめに',
+        introText:
+            'ClawHost（「当社」）は、お客様のプライバシーを保護することに取り組んでいます。このプライバシーポリシーは、当社のサービスをご利用の際に、お客様の情報をどのように収集、使用、開示、保護するかを説明します。',
+        authTitle: '2. 認証',
+        authText:
+            'ClawHostは、ユーザーアカウントの管理にGoogle Firebase Authenticationを使用しています。メール、Google、またはGitHubでサインインできます。これらのサインイン方法を使用することで、それぞれの利用規約とプライバシーポリシーに同意したものとみなされます。これらのプロバイダーは、メールアドレス、名前、デバイス情報などの基本データを収集する場合があります。当社はメールアドレスと表示名のみを保存します。',
+        collectTitle: '3. 収集する情報',
+        collectText: '以下の方法で情報を収集します:',
+        personalInfoTitle: '個人情報',
+        personalInfoEmail:
+            'メールアドレス（アカウント作成とコミュニケーション用）',
+        personalInfoName: '名前（任意、パーソナライズ用）',
+        personalInfoPayment: '支払い情報（第三者プロバイダーにより安全に処理）',
+        serverInfoTitle: 'サーバー情報',
+        serverInfoConfig: 'サーバー設定とステータス',
+        serverInfoIp: 'サーバーIPアドレスとロケーション',
+        serverInfoResources: 'リソース割り当て（CPU、RAM、ストレージ）',
+        useTitle: '4. 情報の使用方法',
+        useText: '収集した情報は以下の目的で使用します:',
+        useProvide: 'サービスの提供と維持',
+        useTransactions: '取引の処理と請求情報の送信',
+        useNotices: '重要な通知とアップデートの送信',
+        useSupport: 'カスタマーサポートリクエストへの対応',
+        useAnalyze: 'サービス改善のための使用パターンの監視と分析',
+        useFraud: '不正行為や悪用の検出と防止',
+        sharingTitle: '5. データの共有と開示',
+        sharingText:
+            '当社はお客様の個人情報を販売しません。以下と情報を共有する場合があります:',
+        sharingProviders:
+            'サービスの運営を支援するサービスプロバイダー（例: クラウドインフラプロバイダー）',
+        sharingLegal:
+            '法律で要求される場合または当社の権利を保護するために法的機関',
+        sharingBusiness: '合併、買収、または資産売却の場合のビジネスパートナー',
+        securityTitle: '6. データセキュリティ',
+        securityText:
+            '当社は、お客様の個人情報を不正アクセス、改ざん、開示、破壊から保護するために適切な技術的・組織的措置を講じています。これには暗号化、セキュアなサーバー、定期的なセキュリティ評価が含まれます。',
+        retentionTitle: '7. データ保持',
+        retentionText:
+            'お客様の個人情報は、アカウントが有効な間、またはサービス提供に必要な限り保持します。法律で要求される場合または正当なビジネス目的のために、特定の情報を保持する場合があります。',
+        rightsTitle: '8. お客様の権利',
+        rightsText: 'お住まいの地域に応じて、以下の権利がある場合があります:',
+        rightsAccess: '個人データへのアクセス',
+        rightsCorrect: '不正確なデータの訂正',
+        rightsDelete: 'データの削除リクエスト',
+        rightsObject: 'データ処理への異議申し立て',
+        rightsPortability: 'データポータビリティ',
+        rightsWithdraw: 'いつでも同意を撤回',
+        cookiesTitle: '9. Cookieとトラッキング',
+        cookiesText:
+            '当社はCookieを使用しません。認証はFirebaseを通じて処理され、ブラウザに保存されるCookieに依存しません。',
+        transfersTitle: '10. 国際データ転送',
+        transfersText:
+            'お客様の情報は、お客様の国以外の国に転送され処理される場合があります。このプライバシーポリシーに従ってお客様のデータを保護するために適切な保護措置を講じます。',
+        eligibilityTitle: '11. 利用資格',
+        eligibilityText:
+            '当社のサービスはどなたでもご利用いただけます。ClawHostの利用に年齢制限はありません。',
+        changesTitle: '12. ポリシーの変更',
+        changesText:
+            '当社は、このプライバシーポリシーを随時更新する場合があります。このページに新しいプライバシーポリシーを掲載し、「最終更新」日を更新することで変更をお知らせします。',
+        contactTitle: '13. お問い合わせ',
+        contactText:
+            'このプライバシーポリシーに関するご質問、またはお客様の権利の行使をご希望の場合は、以下までお問い合わせください'
+    },
+    terms: {
+        title: '利用規約',
+        description: 'ClawHostサービスの利用規約をお読みください。',
+        lastUpdated: '最終更新: 2026年3月14日',
+        acceptanceTitle: '1. 規約の承諾',
+        acceptanceText:
+            'ClawHost（「サービス」）にアクセスし利用することで、この契約の条項に拘束されることに承諾し同意します。これらの規約に同意しない場合は、当社のサービスを使用しないでください。',
+        serviceTitle: '2. サービスの説明',
+        serviceText:
+            'ClawHostは、専用サーバー上でOpenClawとHermesのワンクリックデプロイを提供します。フルルートアクセスと専用リソースを備えた事前構成済みのOpenClawおよびHermesインスタンスを、ユーザーがデプロイ・管理・アクセスできるようにします。',
+        authTitle: '3. 認証',
+        authText:
+            'ClawHostは、サインインの管理にGoogle Firebase Authenticationを使用しています。メール、Google、またはGitHubで認証できます。これらの方法を使用することで、GoogleおよびGitHubのそれぞれの利用規約とプライバシーポリシーに同意したものとみなされます。これらのプロバイダーは、メールアドレス、名前、デバイスデータなどの基本情報を収集する場合があります。',
+        responsibilitiesTitle: '4. ユーザーの責任',
+        responsibilitiesText: 'お客様は以下に同意します:',
+        responsibilitiesAccurate: '正確で完全な登録情報を提供すること',
+        responsibilitiesSecurity:
+            'アカウント認証情報のセキュリティを維持すること',
+        responsibilitiesCompliance:
+            'すべての適用法に準拠してサービスを使用すること',
+        responsibilitiesLegal: '違法または不正な目的でサービスを使用しないこと',
+        responsibilitiesAccess:
+            'システムまたはネットワークへの不正アクセスを試みないこと',
+        prohibitedTitle: '5. 禁止事項',
+        prohibitedText: '以下の目的で当社のサービスを使用することはできません:',
+        prohibitedMalware:
+            'マルウェア、ウイルス、または有害なソフトウェアの配布',
+        prohibitedDos: 'サービス拒否攻撃またはネットワーク悪用の実行',
+        prohibitedSpam: 'スパムまたは未承諾のコミュニケーションの送信',
+        prohibitedIllegal: '違法コンテンツのホストまたは配布',
+        prohibitedIp: '知的財産を含む第三者の権利の侵害',
+        prohibitedMining: '暗号通貨のマイニング',
+        prohibitedOther:
+            '当社の裁量で不適切と判断するその他の違法または有害な活動',
+        paymentTitle: '6. 支払いと請求',
+        paymentText:
+            'サービスは固定の月額または年額で請求されます。月額と年額の請求はいつでも切り替えることができ、変更は次の請求期間の開始時に有効になります。すべての支払いは返金不可です。サーバーの支払いを行うと、請求期間全体にわたってアクセスできます。キャンセルした場合、キャンセルは現在の請求期間の終了時に有効になります。価格は変更される場合がありますが、変更は新しくデプロイされたClawにのみ適用され、既にデプロイされたものには影響しません。支払いの不履行は、アカウントの停止または終了につながる場合があります。',
+        availabilityTitle: '7. サービスの可用性',
+        availabilityText:
+            '当社は高い可用性を維持するよう努めますが、サービスへの中断のないアクセスを保証するものではありません。当社は、通知の有無にかかわらず、いつでもサービスの一部を変更、一時停止、または中止する権利を留保します。',
+        liabilityTitle: '8. 責任の制限',
+        liabilityText:
+            '法律で許される最大限の範囲において、ClawHostは、直接的または間接的に発生した間接的、偶発的、特別、結果的、または懲罰的損害、または利益または収益の損失について責任を負いません。',
+        terminationTitle: '9. 終了',
+        terminationText:
+            '当社は、これらの規約に違反する、または他のユーザー、当社、または第三者に有害であると当社が判断する行為、またはその他の理由により、事前通知なしにお客様のアカウントとサービスへのアクセスを即座に終了または停止する場合があります。',
+        affiliateTitle: '10. Affiliate Program',
+        affiliateText:
+            'ClawHost offers an affiliate program that allows users to earn rewards by referring new users. By participating in the affiliate program, you agree to the following:',
+        affiliateCodeUnique:
+            'Each user receives a unique referral code upon registration, which can be customized once.',
+        affiliateCodeOneChange:
+            'The referral code can only be changed one time. Choose your custom code carefully.',
+        affiliateReferralWindow:
+            'A referral is valid for 6 months from when the referred user first visits ClawHost with your referral link. After 6 months, the referral expires.',
+        affiliateNoSelfReferral:
+            'Self-referrals are not permitted. You may not refer your own accounts.',
+        affiliateAbuse:
+            'Any abuse of the affiliate program, including but not limited to fake accounts, automated signups, or fraudulent referrals, will result in forfeiture of rewards and possible account termination.',
+        changesToTermsTitle: '11. 規約の変更',
+        changesToTermsText:
+            '当社は、いつでもこれらの規約を変更する権利を留保します。重要な変更については、メールまたはサービスを通じてユーザーに通知します。変更後のサービスの継続使用は、更新された規約の承諾を意味します。',
+        contactTitle: '12. お問い合わせ',
+        contactText:
+            'これらの規約に関するご質問がある場合は、以下までお問い合わせください'
+    },
+    rebrand: {
+        tag: '進化',
+        title: 'ClawHostはAgentistになりました',
+        mission: '自律型AIエージェントのためのインフラ基盤を構築。'
+    },
+    hermesBanner: {
+        title: 'Hermes Agent',
+        message: 'HermesエージェントがClawHostでのデプロイに対応しました。'
+    },
+    compare: {
+        title: '比較',
+        description:
+            'ClawHostと他のOpenClawホスティングプラットフォームの比較をご覧ください。',
+        badge: '比較',
+        feature: 'プラットフォーム',
+        compareWith: '比較対象',
+        lastUpdated: '最終更新：2026年3月',
+        competitorClawHost: 'ClawHost',
+        competitorLobsterFarm: 'LobsterFarm',
+        competitorSimpleAgent: 'SimpleAgent',
+        competitorMyAgentAi: 'MyAgent.ai',
+        competitorQuickAgent: 'QuickAgent',
+        categoryInfrastructure: 'インフラストラクチャ',
+        categoryPricing: '料金と請求',
+        categoryDeployment: 'デプロイとセットアップ',
+        categoryManagement: 'OpenClaw管理',
+        categorySecurity: 'データとセキュリティ',
+        categoryMonitoring: '監視とメンテナンス',
+        categorySupport: 'サポートとプラットフォーム',
+        featureServerOwnership: 'サーバーの所有権',
+        featureProviderChoice: 'クラウドプロバイダーの選択',
+        featureDedicatedResources: '専用リソース',
+        featureRootAccess: '完全なroot/SSHアクセス',
+        featureServerLocations: 'サーバーロケーション',
+        featureStartingPrice: '開始価格',
+        featureTransparentPricing: '透明な料金設定',
+        featurePowerfulServers: '高性能サーバー、低価格',
+        featureLocationSelection: 'サーバーロケーションの選択',
+        featureSubdomainAccess: 'サブドメインアクセス',
+        featureThemes: 'ライト＆ダークテーマ',
+        featureSetupTime: 'セットアップ時間',
+        featureOneClickDeploy: 'ワンクリックデプロイ',
+        featureMultipleInstances: '複数インスタンス',
+        featureDataOwnership: '完全なデータ所有権',
+        featureDataExport: 'データエクスポート',
+        featureBackups: 'バックアップ',
+        featureSecurityHardening: 'セキュリティ強化',
+        featureSslTls: 'SSL/TLS',
+        featureOpenSource: 'オープンソース',
+        featureAutoUpdates: '自動アップデート',
+        featureDiagnostics: 'リアルタイム診断',
+        featureLogStreaming: 'ログストリーミング',
+        featureRepairTools: '修復ツール',
+        featureSupportChannels: 'サポートチャネル',
+        featureMultiLanguage: '多言語UI',
+        featureDesktopApp: 'デスクトップアプリ',
+        featureOneClickVersion: 'ワンクリックバージョン切替',
+        featureWebTerminal: 'Webターミナルアクセス',
+        featureSocials: 'ソーシャルメディア',
+        dedicatedVps: '専用VPS',
+        sharedContainers: '共有コンテナ',
+        isolatedContainers: '分離コンテナ',
+        cloudWorkspaces: 'クラウドワークスペース',
+        threeProviders: 'Cloud',
+        singleProvider: '単一プロバイダー',
+        fullyDedicated: '完全専用',
+        shared: '共有',
+        fullRootSsh: '完全なroot + SSH',
+        sshOnRequest: 'リクエストによるSSH',
+        noAccess: 'アクセスなし',
+        thirtyPlusLocations: '30以上のロケーション',
+        limitedLocations: '限定的',
+        fourLocations: '4ロケーション',
+        fromTwentyFiveMonth: '$25/月から',
+        aboutFortyFourMonth: '平均約$44/月',
+        fromNineteenMonth: '$19〜79/月',
+        nineteenMonth: '$19/月',
+        clearSpecsPricing: '明確なスペックと料金',
+        unclearPricing: '不明確な料金',
+        fixedTiers: '3つの固定プラン',
+        creditBased: 'クレジットベース',
+        minutes: '数分',
+        underOneMinute: '1分以内',
+        thirtySeconds: '30秒',
+        instant: '即時',
+        noneRequired: '不要',
+        minimal: '最小限',
+        unlimited: '無制限',
+        singleInstance: '単一',
+        noMarketplace: 'マーケットプレイスなし',
+        appOnly: 'アプリのみ',
+        fullConfig: '完全な設定',
+        limitedConfig: '限定的',
+        zipExport: 'ZIPエクスポート',
+        serverTransfer: 'サーバー移行',
+        noExport: 'エクスポートなし',
+        volumeStorage: 'ボリュームストレージ',
+        noBackups: 'バックアップなし',
+        dailyBackups: '毎日のバックアップ',
+        included: '含まれる',
+        notIncluded: '含まれない',
+        managed: 'マネージド',
+        manual: '手動',
+        appStore: 'App Store',
+        liveMonitoring: 'ライブモニタリング',
+        liveLogs: 'ライブログ',
+        oneClickRepair: 'ワンクリック修復',
+        emailGithub: 'メール、GitHub',
+        humanSupport: '人的サポート',
+        communityOnly: 'コミュニティのみ',
+        appSupport: 'アプリサポート',
+        prioritySupport: '24時間サポート（Pro+）',
+        fourLanguages: '4言語',
+        englishOnly: '英語のみ',
+        available: '利用可能',
+        comingSoon: '近日公開',
+        macOsOnly: 'macOSのみ',
+        viaTelegram: 'Telegram経由',
+        builtInTerminal: 'SSH不要',
+        notAvailable: '利用不可',
+        disclaimer: '変更点や誤りがありますか？メールでご連絡ください：',
+        disclaimerOr: 'またはプルリクエストを送信してください：',
+        github: 'GitHub',
+        ctaTitle: '違いを体験する準備はできましたか？',
+        ctaDescription:
+            '自分専用のサーバーにOpenClawをデプロイ。完全な所有権、透明な料金設定、数分で準備完了。'
+    },
+    admin: {
+        title: '管理',
+        description: 'プラットフォームのユーザーとデータを管理します。',
+        usersTab: 'ユーザー',
+        totalUsers: '{{count}} ユーザー',
+        noUsers: 'ユーザーなし',
+        noUsersDescription: 'フィルターに一致するユーザーが見つかりません。',
+        genericErrorDescription: '問題が発生しました。もう一度お試しください。',
+        genericEmptyDescription: 'まだ表示するものがありません。',
+        failedToLoadUsers: 'ユーザーの読み込みに失敗しました！',
+        failedToLoadUsersDescription:
+            'ユーザーの読み込み中にエラーが発生しました。もう一度お試しください。',
+        failedToLoadUserDetail: 'ユーザー詳細の読み込みに失敗しました！',
+        userDetail: 'ユーザー詳細',
+        userInfo: 'ユーザー情報',
+        email: 'メール',
+        name: '名前',
+        role: 'ロール',
+        authMethods: '認証方法',
+        license: 'ライセンス',
+        referralCode: '紹介コード',
+        referredBy: '紹介元',
+        joined: '登録日',
+        claws: 'Claws',
+        sshKeys: 'SSHキー',
+        volumes: 'ボリューム',
+        billing: '請求',
+        noClaws: 'Clawsなし',
+        noSshKeys: 'SSHキーなし',
+        noVolumes: 'ボリュームなし',
+        noBilling: '請求履歴なし',
+        hasLicense: 'あり',
+        noLicense: 'なし',
+        notSet: '未設定',
+        searchPlaceholder: 'メールまたは名前で検索...',
+        filterAll: 'すべてのユーザー',
+        filterWithClaws: 'Clawsあり',
+        filterWithoutClaws: 'Clawsなし',
+        sortNewest: '新しい順',
+        sortOldest: '古い順',
+        editUser: '編集',
+        saveUser: '保存',
+        userUpdated: 'ユーザーを更新しました。',
+        userUpdateFailed: '更新に失敗しました！',
+        clawsTab: 'Claws',
+        sshKeysTab: 'SSHキー',
+        volumesTab: 'ボリューム',
+        noClawsFound: 'Clawsなし',
+        noSSHKeysFound: 'SSHキーなし',
+        noVolumesFound: 'ボリュームなし',
+        failedToLoadAgents: 'Agentsの読み込みに失敗しました！',
+        failedToLoadSSHKeys: 'SSHキーの読み込みに失敗しました！',
+        failedToLoadVolumes: 'ボリュームの読み込みに失敗しました！',
+        owner: 'オーナー',
+        searchClaws: 'Clawsを検索...',
+        searchSSHKeys: 'SSHキーを検索...',
+        referralsTab: '紹介',
+        pendingClawsTab: '保留中',
+        waitlistTab: 'ウェイトリスト',
+        emailsTab: 'メール',
+        analyticsTab: '分析',
+        billingTab: '請求',
+        settingsTab: '設定',
+        settingsDescription: '管理者設定を管理。',
+        showAllAgents: 'すべてのユーザーのエージェントを表示',
+        billingFilterAll: 'すべての注文',
+        billingFilterService: 'Clawサービス',
+        billingFilterLicense: 'ライセンス',
+        billingOrderTypeLabel: ' · {{type}}',
+        noBillingFound: '請求注文なし',
+        failedToLoadBilling: '請求注文の読み込みに失敗しました！',
+        searchBilling: '製品名で検索...',
+        billingReason: '理由',
+        billingType: 'タイプ',
+        billingSubtotal: '小計',
+        billingDiscount: '割引',
+        billingTax: '税金',
+        billingTotal: '合計',
+        analyticsDay: '日',
+        analyticsWeek: '週',
+        analyticsMonth: '月',
+        analyticsYear: '年',
+        analyticsAllTime: '全期間',
+        analyticsFilter: 'フィルター',
+        analyticsResources: 'リソース',
+        analyticsSelectAll: 'すべて選択',
+        analyticsDeselectAll: 'すべて解除',
+        failedToLoadAnalytics: '分析の読み込みに失敗しました！',
+        noAnalyticsData: '分析データがありません。',
+        noReferralsFound: '紹介なし',
+        noPendingClawsFound: '保留中のClawsなし',
+        noWaitlistFound: 'ウェイトリストなし',
+        noEmailsFound: 'メールなし',
+        failedToLoadReferrals: '紹介の読み込みに失敗しました！',
+        failedToLoadPendingClaws: '保留中のClawsの読み込みに失敗しました！',
+        failedToLoadWaitlist: 'ウェイトリストの読み込みに失敗しました！',
+        failedToLoadEmails: 'メールの読み込みに失敗しました！',
+        referrer: '紹介者',
+        referred: '被紹介者',
+        earned: '獲得額',
+        searchWaitlist: 'ウェイトリストを検索...',
+        expiresAt: '有効期限',
+        feature: '機能',
+        sentAt: '送信日',
+        fileSize: 'サイズ',
+        registered: '登録済み',
+        status: 'ステータス',
+        ip: 'IP',
+        plan: 'プラン',
+        location: 'ロケーション',
+        subdomain: 'サブドメイン',
+        subscription: 'サブスクリプション',
+        billingInterval: '請求',
+        deletionScheduled: '削除予定',
+        fingerprint: 'フィンガープリント',
+        price: '価格',
+        pricePerMonth: '{{price}}/月',
+        statusRunning: '実行中',
+        statusStopped: '停止',
+        adminBadge: '管理者',
+        unitGB: '{{size}} GB',
+        unitKB: '{{size}} KB'
+    },
+    affiliate: {
+        title: 'Affiliate',
+        description: 'Earn rewards by referring friends to ClawHost.',
+        subtitle: 'Share your referral link and earn rewards.',
+        learnMore: 'アフィリエイトプログラムの詳細',
+        referralCode: 'Referral Code',
+        referrals: 'Referrals',
+        payments: '支払い',
+        earnings: 'Earnings',
+        codeChangeHint: 'You can customize your referral code once.',
+        codeAlreadyChanged: 'Your referral code has already been customized.',
+        codeUpdated: 'Referral code updated.',
+        codeUpdateFailed: 'Failed to update referral code!',
+        invalidCodeLength:
+            'Code must be between {{min}} and {{max}} characters!',
+        referralHistory: 'Referral History',
+        paymentHistory: '支払い履歴',
+        periodToday: 'Today',
+        periodWeek: 'Week',
+        periodMonth: 'Month',
+        periodYear: 'Year',
+        periodAll: 'All',
+        confirmChangeTitle: 'Change Referral Code',
+        confirmChangeDescription:
+            'Are you sure? This action is permanent and cannot be undone. You will not be able to change your referral code again.',
+        noReferralsYet: '紹介なし',
+        noReferralsDescription:
+            'Share your referral link to start earning rewards.',
+        noPaymentsYet: '支払いなし',
+        noPaymentsDescription:
+            '紹介したユーザーが購入すると、その支払いがここに表示されます。'
+    },
+    affiliateProgram: {
+        title: 'アフィリエイトプログラム',
+        description:
+            'ClawHost アフィリエイトプログラムの仕組み、獲得できる報酬額、参加ルールについてご説明します。',
+        lastUpdated: '最終更新日：2026年4月1日',
+        overviewTitle: '1. 概要',
+        overviewText:
+            'ClawHost アフィリエイトプログラムでは、新しいユーザーを ClawHost に紹介することで報酬を獲得できます。あなたの紹介リンクを通じて ClawHost を訪問した後に誰かが購入を行うと、その支払いからコミッションを獲得できます。プログラムは無料で参加でき、すべての登録済み ClawHost ユーザーが利用できます。',
+        howItWorksTitle: '2. 仕組み',
+        howItWorksText: 'アフィリエイトプログラムの開始は簡単です：',
+        howItWorksStep1:
+            'ClawHost アカウントを作成します。固有の紹介コードが自動的に生成されます。',
+        howItWorksStep2:
+            '紹介リンクを友人、同僚、またはあなたのオーディエンスと共有します。リンクの形式は clawhost.cloud?ref=YOUR_CODE です。',
+        howItWorksStep3:
+            '誰かがあなたのリンクを通じて ClawHost を訪問した後に購入を行うと、あなたの紹介として追跡されます。',
+        howItWorksStep4:
+            '紹介したユーザーが対象となる購入を行うたびにコミッションを獲得します。',
+        earningsTitle: '3. 報酬と支払い',
+        earningsText: 'アフィリエイト報酬の仕組みは以下の通りです：',
+        earningsCommission:
+            '紹介したユーザーが行う対象購入ごとに 15% のコミッションを獲得します。コミッションは ClawHost Cloud と ClawHost Go の両方のプランに適用されます。',
+        earningsMonthly:
+            '月額サブスクリプションの場合、紹介日から1年間コミッションを獲得できます。',
+        earningsYearly:
+            '年額サブスクリプションの場合、最初の1年分のみコミッションを獲得できます。',
+        earningsPayout:
+            '最低出金額は 100 ドル（USD）です。出金をリクエストするには、サポートチームにお問い合わせください。',
+        earningsPaymentMethod:
+            '出金は PayPal 経由で処理されます。支払いをリクエストする際に、有効な PayPal メールアドレスを提供する必要があります。',
+        earningsCurrency: 'すべての報酬は USD で計算・表示されます。',
+        referralCodeTitle: '4. あなたの紹介コード',
+        referralCodeText:
+            '各ユーザーは登録時に固有の紹介コードを受け取ります。より覚えやすくするために一度だけカスタマイズできます：',
+        referralCodeUnique:
+            '紹介コードはあなたのアカウント固有のもので、他のユーザーと共有または譲渡することはできません。',
+        referralCodeOneChange:
+            '紹介コードのカスタマイズは正確に一度だけ可能です。慎重に選択してください — この変更は永久的で取り消すことはできません。',
+        referralCodeFormat:
+            '紹介コードには文字、数字、ハイフン、アンダースコアのみ使用できます。',
+        referralWindowTitle: '5. 紹介帰属ウィンドウ',
+        referralWindowText:
+            '紹介は、紹介されたユーザーがあなたのリンクを通じて初めて ClawHost を訪問した時点から 3 ヶ月間、あなたに帰属されます。紹介されたユーザーがこの 3 ヶ月のウィンドウ内に購入を行わない場合、紹介は期限切れとなりコミッションは獲得されません。ユーザーが別の紹介リンクを通じて訪問した場合、新しい紹介が以前のものに取って代わります。',
+        eligibilityTitle: '6. 参加資格',
+        eligibilityText:
+            'アフィリエイトプログラムに参加するには、以下の要件を満たす必要があります：',
+        eligibilityAccount: '登録済みの ClawHost アカウントが必要です。',
+        eligibilityStanding:
+            'アカウントがポリシー違反の履歴なく良好な状態である必要があります。',
+        eligibilityAge:
+            '18歳以上、またはお住まいの管轄区域の成人年齢に達している必要があります。',
+        rulesTitle: '7. プログラムルール',
+        rulesText:
+            'アフィリエイトプログラムの整合性を維持するため、以下のルールが適用されます：',
+        rulesNoSelfReferral:
+            '自己紹介は厳禁です。自分のアカウントや管理するアカウントを紹介することはできません。',
+        rulesNoFakeAccounts:
+            '偽のアカウントの作成、自動登録、またはボットを使用した紹介の生成は禁止されています。',
+        rulesNoSpam:
+            '紹介リンクを宣伝するために未承諾の大量メッセージ（スパム）を送信することは許可されていません。',
+        rulesNoMisrepresentation:
+            'ClawHost、そのサービス、またはアフィリエイトプログラムをいかなる方法でも虚偽表示することはできません。',
+        rulesNoIncentivized:
+            '直接的な金銭的インセンティブの提供（例：リンクを通じて登録するようユーザーに支払うこと）は許可されていません。',
+        terminationTitle: '8. 違反と解除',
+        terminationText:
+            'これらのルールへの違反は、保留中および獲得済みのすべての報酬の即時没収につながります。ClawHost は、アフィリエイトプログラムからのアカウントの一時停止または永久禁止の権利を留保します。重大な場合、ClawHost アカウント自体も解除される場合があります。違反に関するすべての決定は最終的なものです。',
+        marketingTitle: '9. プロモーション方法',
+        marketingText:
+            '紹介リンクを共有して収益を増やすための創造的で合法的な方法がたくさんあります：',
+        marketingSocial:
+            'X、LinkedIn、Reddit、Facebook などのソーシャルメディアプラットフォームでリンクを共有しましょう。ClawHost での体験について書き、紹介リンクを含めてください。',
+        marketingBlog:
+            'ClawHost についてのブログ記事、チュートリアル、レビューを書きましょう。コンテンツ内に自然に紹介リンクを含めてください。',
+        marketingVideo:
+            'YouTube や TikTok で、ClawHost を使って AI エージェントをデプロイ・管理する方法を紹介するビデオコンテンツを作成しましょう。',
+        marketingCommunity:
+            '開発者コミュニティ、フォーラム、Discord サーバーに参加しましょう。クラウドホスティングや AI エージェントのデプロイについて質問があった場合、リンク付きで ClawHost を推薦してください。',
+        marketingNewsletter:
+            'ニュースレターやメーリングリストを運営している場合、関連する号で紹介リンクとともに ClawHost を紹介してください。',
+        marketingComparison:
+            'ClawHost が他のプラットフォームとどう違うかを強調する、正直な比較記事やガイドを書きましょう。',
+        changesToProgramTitle: '10. プログラムの変更',
+        changesToProgramText:
+            'ClawHost は、事前の通知なくいつでもアフィリエイトプログラムを変更、一時停止、または廃止する権利を留保します。これにはコミッション率、紹介ウィンドウ、支払い閾値、プログラムルールの変更が含まれます。変更後の継続的な参加は、更新された条件の受諾を構成します。',
+        getStartedTitle: '11. 始めましょう',
+        getStartedText:
+            '報酬を獲得する準備はできましたか？アフィリエイトダッシュボードに移動して紹介リンクを取得し、ネットワークと共有しましょう。',
+        getStartedButton: 'アフィリエイトダッシュボードへ',
+        contactTitle: '12. お問い合わせ',
+        contactText:
+            'アフィリエイトプログラムについてのご質問、紹介コードに関するサポート、または違反の報告は、以下までお問い合わせください'
+    },
+    v2: {
+        title: 'agent.ic — OpenClaw & Hermes をクラウドにデプロイ',
+        description:
+            'OpenClaw と Hermes エージェントをワンクリックでクラウドにデプロイ — オープンソース、セルフホスト可能、エージェンティックコンピューティングの未来のために構築。',
+        heroTitle1: 'デプロイ',
+        heroTitle2: 'AIエージェント',
+        heroTitle3: 'クラウドにワンクリックで',
+        heroDescription:
+            'OpenClaw と Hermes エージェントをワンクリックでクラウドにデプロイ — Agentist で AI エージェントをより速く構築、接続、スケール。',
+        selfHostLabel: '代わりにセルフホスト',
+        deployButton: '今すぐデプロイ',
+        agentsTitle: 'あなたのエージェント。あなたのクラウド。',
+        agentsDescription:
+            '成長し続けるAIエージェントカタログから選択。各エージェントは専用のクラウドサーバーで動作します。',
+        agentOpenclawName: 'OpenClaw',
+        agentOpenclawDescription:
+            '完全なSSH、ターミナル、ファイルエクスプローラー、設定エディタを備えたセルフホスト可能なクラウド管理プラットフォーム。',
+        agentHermesName: 'Hermes',
+        agentHermesDescription:
+            'ウェブブラウジング、カレンダー管理、マルチモデル推論、ブラウザ自動化を備えた自律型AIエージェント。',
+        featuresTitle: '未来のために構築',
+        featuresDescription:
+            'AIエージェントを大規模に運用するために必要なすべて。',
+        feature1Title: 'マルチエージェントプラットフォーム',
+        feature1Description:
+            '単一のダッシュボードから複数のエージェントタイプをデプロイ・管理。',
+        agentControlTitle: '完全なエージェント制御',
+        agentControlDescription:
+            'ひとつのダッシュボードからエージェントのあらゆる側面を設定、カスタマイズ。',
+        multipleAgentsTitle: '複数エージェント',
+        multipleAgentsDescription:
+            '異なるリージョンと設定で複数のエージェントインスタンスを実行。',
+        zeroConfigDescription:
+            '何時間ものセットアップをスキップ。OpenClawとHermesがプリインストール済みで数分で準備完了。',
+        globalLocationsDescription:
+            'エージェントを30以上のグローバルリージョンにデプロイ。最寄りのロケーションを選択。',
+        onlineAccessDescription:
+            'カスタムサブドメインでどこからでもエージェントに安全にアクセス。',
+        versionControlDescription:
+            'ワンクリックでエージェントバージョンを切り替え。最新を維持、または必要に応じてロールバック。',
+        agentsPreinstalled: 'エージェント プリインストール',
+        comparisonAgentAccessUs: 'すべてのエージェントへのフルアクセス',
+        comparisonMultipleAgentsUs: 'サーバーあたり複数のエージェント',
+        comparisonMultipleAgentsOthers: '単一のエージェントのみ',
+        comparisonExportAgentsUs: 'エージェントをどこにでもエクスポート',
+        comparisonUsLabel: 'お任せ管理',
+        comparisonOthersLabel: '自分で構築',
+        faq1Question: 'Agentistとは？',
+        faq1Answer:
+            'Agentistは、自分専用のサーバーでAIエージェントをデプロイ・管理できるプラットフォームです。インフラ、セキュリティ、メンテナンスは私たちが担当します — あなたはエージェントを使うだけです。',
+        faq2Question: 'OpenClawとは？',
+        faq2Answer:
+            'OpenClawは、AIツールやサービスのためのセルフホスト型セキュアアクセスレイヤーです。すべてのAgentistサーバーにプリインストールされており、セットアップを完全にコントロールできます。',
+        faq3Question: 'Hermesとは？',
+        faq3Answer:
+            'Hermesは、Webブラウジング、カレンダー管理、マルチモデル推論、ブラウザ自動化を備えた自律型AIエージェントです。すべてのサーバーにOpenClawと共にプリインストールされています。',
+        faq4Question: '技術的な知識は必要ですか？',
+        faq4Answer:
+            'いいえ。Agentistはすべての人向けに設計されています。インフラ、セットアップ、メンテナンスのすべてを私たちが担当します。サーバーに触れることなく、直感的なダッシュボードからエージェントを管理できます。',
+        faq5Question: '他のAIプラットフォームとの違いは？',
+        faq5Answer:
+            'ホスティング型AIツールとは異なり、Agentistはエージェントがインストールされた本物の専用サーバーを提供します。インフラを所有し、すべてをコントロールでき、共有プラットフォームに制限されません。',
+        faq6Question: 'どのロケーションが利用可能ですか？',
+        faq6Answer:
+            '米国、ヨーロッパ、アジアを含む世界30以上のサーバーロケーションを提供しています。異なるリージョンの複数のサーバーにエージェントをデプロイできます。',
+        faq7Question: '料金はいくらですか？',
+        faq7Answer:
+            '選択するサーバーに応じて月額40ドルから。エントリーレベルからハイパフォーマンスまで複数のオプション。隠れた料金なし、いつでもキャンセル可能。',
+        footerDescription:
+            'ワンクリックでOpenClawとHermesエージェントをクラウドにデプロイ — Agentistで AIエージェントをより速く構築、接続、スケールしましょう。',
+        ctaTitle: 'デプロイの準備はできましたか？',
+        ctaDescription:
+            '次世代のエージェントデプロイメントに参加しましょう。あなたのインフラ、あなたのエージェント、あなたのルール。',
+        stats2Value: '30+',
+        stats2Label: 'リージョン',
+        stats3Value: '<60s',
+        stats3Label: 'デプロイ時間',
+        stats4Value: '100%',
+        stats4Label: 'アップタイム SLA',
+        pricingTitle: '透明な料金設定',
+        planGrowthTagline: '個人プロジェクトや実験に',
+        planProTagline: '本番ワークロードに',
+        planBusinessTagline: '成長するビジネスに',
+        planPowerTagline: '大規模な運用に',
+        planPower: 'Power',
+        pricingPageTitle: '料金 — agent.ic',
+        pricingPageDescription:
+            'AIエージェントデプロイの透明な料金設定。隠れた費用なしで、ニーズに合ったプランをお選びください。',
+        featuresPageTitle: '機能 — agent.ic',
+        featuresPageDescription:
+            'agent.icのすべての機能を探索 — マルチエージェントデプロイ、専用インフラ、グローバルリージョン、フルルートアクセス。'
+    }
+}
+
+export default ja
